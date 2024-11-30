@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-map-action.yml
+
+title: Scraper specification handler's mapping action
+description: Mapping action performed by handler
+
+javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationMapAction
+javaInterfaces:
+  - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationAction
+
+type: object
+additionalProperties: false
+
+required:
+  - maps
+
+properties:
+  maps:
+    $ref: 001-scraper-specification-map.yml#/
