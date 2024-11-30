@@ -8,7 +8,8 @@
       - Use the default title: "🔀 Merge `origin/<source_branch>` into `origin/<target_branch:usually dev>`".
       - If your PR addresses an issue, link the issue number in the `Development` section of the PR body.
       - If your PR does not address an issue, include a brief description in the PR body detailing the purpose and scope of the changes.
-  3. **Code Style**: Check your code with [Prettier](https://prettier.io) (`npx prettier --check .`).
+  3. **Validation**: Validate your JSON schemas with [ajv-cli](https://ajv.js.org/packages/ajv-cli.html) (`npm run lint`).
+  4. **Code Style**: Check your code with [Prettier](https://prettier.io) (`npx prettier --check .`).
 
   When merging the PR, please use the default title, and include the issue reference `#issue_number` in parentheses after the title if applicable and missing.
 
