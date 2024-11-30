@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lengors/protoscout-schemas/issues"
   },
-  "homepage": "https://github.com/lengors/protoscout-schemas#readme"
+  "homepage": "https://github.com/lengors/protoscout-schemas#readme",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
 }
