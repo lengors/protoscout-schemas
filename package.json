@@ -1,7 +1,9 @@
 {
   "name": "protoscout-schemas",
   "description": "Project containg schemas for ProtoScout, the protocol used by WebScout",
-  "scripts": {},
+  "scripts": {
+    "lint": "ajv compile --strict=false -s ./src/**/*.yml"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lengors/protoscout-schemas.git"
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/lengors/protoscout-schemas#readme",
   "devDependencies": {
+    "ajv-cli": "^5.0.0",
     "prettier": "^3.4.1"
   }
 }
