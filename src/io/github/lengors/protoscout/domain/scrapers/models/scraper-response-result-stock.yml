@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-stock.yml
+
+title: Scraper response result stock
+description: Stock data associated with result of scraper
+
+javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultStock
+javaInterfaces:
+  - java.io.Serializable
+
+type: object
+additionalProperties: false
+
+required:
+  - availability
+
+properties:
+  availability:
+    $ref: scraper-response-result-quantity.yml#/
+  storage:
+    type: string
+    title: Result availability storage
+    description: Storage associated with given availability of scrapped result
+  delivery_date_time:
+    $ref: scraper-response-result-date-time.yml#/

@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/specifications/models/004-scraper-specification-defaults.yml
+
+title: Scraper default values
+description: Default values to inject scraper context with
+
+javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationDefaults
+javaInterfaces:
+  - java.io.Serializable
+
+type: object
+additionalProperties: false
+
+required:
+  - url
+  - gates
+
+properties:
+  url:
+    $ref: 003-scraper-specification-url.yml#/
+  headers:
+    $ref: 002-scraper-specification-header-map.yml#/
+  gates:
+    type: array
+    title: Scraper's settings default gates
+    description: List of gates initially injected into the scraper
+    items:
+      $ref: 001-scraper-specification-expression.yml#/
