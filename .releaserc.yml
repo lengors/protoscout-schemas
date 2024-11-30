@@ -15,5 +15,5 @@ plugins:
   - - "@semantic-release/git"
     - assets:
         - CHANGELOG.md
-        - pom.xml
+        - package.json
       message: "🔖 Update `package.json` to `${nextRelease.version}` [skip release]\n\n${nextRelease.notes}"
