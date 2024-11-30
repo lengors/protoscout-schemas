@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/specifications/models/003-scraper-specification-url.yml
+
+title: Scraper url specification
+description: Url specification for scraper default url and request url
+
+javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationUrl
+javaInterfaces:
+  - java.io.Serializable
+
+type: object
+additionalProperties: false
+
+properties:
+  location:
+    $ref: 001-scraper-specification-expression.yml#/
+  scheme:
+    $ref: 001-scraper-specification-expression.yml#/
+  host:
+    $ref: 001-scraper-specification-expression.yml#/
+  path:
+    $ref: 001-scraper-specification-expression.yml#/
+  parameters:
+    type: array
+    title: Scraper's url parameter array
+    description: Parameter array for scraper's url
+    items:
+      $ref: 002-scraper-specification-url-parameter.yml#/

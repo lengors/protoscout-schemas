@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/specifications/models/003-scraper-specification-return-detail.yml
+
+existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail
+
+oneOf:
+  - $ref: 002-scraper-specification-return-descriptive-detail.yml#/
+  - $ref: 002-scraper-specification-return-descriptionless-detail.yml#/

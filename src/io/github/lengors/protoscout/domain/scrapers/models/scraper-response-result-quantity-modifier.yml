@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-quantity-modifier.yml
+
+javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultQuantityModifier
+
+type: string
+title: Result quantity modifier
+description: Specifies some modification for how to interpret quantity
+enum:
+  - exact
+  - at-least
+  - at-most
