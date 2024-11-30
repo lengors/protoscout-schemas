@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema
+$schema: http://json-schema.org/draft-07/schema
+$id: io/github/lengors/protoscout/domain/scrapers/specifications/models/001-scraper-specification-expression.yml
+
+existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
+oneOf:
+  - type: string
+    title: Scraper's expression value
+    description: Expression value to use on scraper computable properties
+  - $ref: 000-scraper-specification-jexl-expression.yml#/
