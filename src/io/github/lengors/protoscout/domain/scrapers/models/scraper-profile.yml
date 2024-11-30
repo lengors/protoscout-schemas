@@ -13,13 +13,13 @@ type: object
 additionalProperties: false
 
 required:
-  - specification_name
+  - scraper_name
   - inputs
 
 properties:
-  specification_name:
+  scraper_name:
     type: string
-    title: Scraper specification name
-    description: Specification name of scraper associated with inputs
+    title: Scraper name
+    description: Name of scraper associated with inputs
   inputs:
     $ref: scraper-inputs.yml#/
