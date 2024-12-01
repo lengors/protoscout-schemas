@@ -1,3 +1,9 @@
+# [v1.0.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.0...v1.0.1-dev.1) (2024-12-01)
+
+## 🐛 Bug Fixes
+
+- [`015b107`](https://github.com/lengors/protoscout-schemas/commit/015b107) Fix incorrect package name for specification&#x27;s data payload
+
 # v1.0.0 (2024-11-30)
 
 ## ✨ New Features
