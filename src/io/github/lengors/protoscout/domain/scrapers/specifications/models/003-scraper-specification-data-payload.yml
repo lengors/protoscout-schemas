@@ -5,9 +5,9 @@ $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/003-scra
 title: Scraper web request data payload
 description: Data payload to be used by scraper's web request
 
-javaType: io.github.lengors.pvs.domain.scrapers.specifications.models.ScraperSpecificationDataPayload
+javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationDataPayload
 javaInterfaces:
-  - io.github.lengors.pvs.domain.scrapers.specifications.models.ScraperSpecificationPayload
+  - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload
 
 type: object
 additionalProperties: false
