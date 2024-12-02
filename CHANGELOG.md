@@ -1,3 +1,9 @@
+# [v1.0.1-dev.2](https://github.com/lengors/protoscout-schemas/compare/v1.0.1-dev.1...v1.0.1-dev.2) (2024-12-02)
+
+## 🐛 Bug Fixes
+
+- [`d2b5746`](https://github.com/lengors/protoscout-schemas/commit/d2b5746) Fix specification name property&#x27;s name
+
 # [v1.0.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.0...v1.0.1-dev.1) (2024-12-01)
 
 ## 🐛 Bug Fixes
