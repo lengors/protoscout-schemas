@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-descriptionless-detail.yml
 
-title: Scraper response result descriptionless detail
-description: Descriptionless detail data associated with result of scraper
+title: Scraper response result descriptionless detail.
+description: Descriptionless detail data associated with result of scraper.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDescriptionlessDetail
 javaInterfaces:
@@ -19,9 +19,9 @@ required:
 properties:
   name:
     type: string
-    title: Result detail name
-    description: Name of detail data associated with scrapped result
+    title: Result detail name.
+    description: Name of detail data associated with scrapped result.
   image:
     type: string
-    title: Result detail image
-    description: Image of detail data associated with scrapped result
+    title: Result detail image.
+    description: Image of detail data associated with scrapped result.

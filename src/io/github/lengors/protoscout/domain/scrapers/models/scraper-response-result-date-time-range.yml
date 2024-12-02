@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-date-time-range.yml
 
-title: Result date-time rage
-description: Date-time range associated with scrapped result
+title: Result date-time rage.
+description: Date-time range associated with scrapped result.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeRange
 javaInterfaces:

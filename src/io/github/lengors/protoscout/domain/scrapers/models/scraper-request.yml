@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-request.yml
 
-title: Scraper request
-description: Request to scrapers for search term
+title: Scraper request.
+description: Request to scrapers for search term.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperRequest
 javaInterfaces:
@@ -19,11 +19,11 @@ required:
 properties:
   search_term:
     type: string
-    title: Search term
-    description: Search term for request
+    title: Search term.
+    description: Search term for request.
   profiles:
     type: array
-    title: Scraper profiles
-    description: List of scraper profiles
+    title: Scraper profiles.
+    description: List of scraper profiles.
     items:
       $ref: scraper-profile.yml#/
