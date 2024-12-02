@@ -21,7 +21,7 @@ properties:
     $ref: scraper-response-error-code.yml#/
   specification_name:
     type: string
-    title: Specification name
+    title: Specification's name
     description: Name of scraper specification that caused the error
   handler_name:
     type: string

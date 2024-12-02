@@ -14,7 +14,7 @@ additionalProperties: false
 
 required:
   - url
-  - scraper_name
+  - specification_name
   - description
   - brand
   - price
@@ -24,10 +24,10 @@ properties:
     type: string
     title: Default url
     description: Default url used for scraping result
-  scraper_name:
+  specification_name:
     type: string
-    title: Scraper's name
-    description: Scraper's name responsible for generating this result
+    title: Specification's name
+    description: Specification's name responsible for generating this result
   description:
     type: string
     title: Result description
