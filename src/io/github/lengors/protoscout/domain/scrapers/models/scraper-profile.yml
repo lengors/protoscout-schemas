@@ -13,11 +13,11 @@ type: object
 additionalProperties: false
 
 required:
-  - scraper_name
+  - specification_name
   - inputs
 
 properties:
-  scraper_name:
+  specification_name:
     type: string
     title: Scraper name
     description: Name of scraper associated with inputs
