@@ -5,8 +5,8 @@ $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/000-scra
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequestMethod
 
 type: string
-title: Scraper's request HTTP method
-description: HTTP method used for scraper's request
+title: Scraper's request HTTP method.
+description: HTTP method used for scraper's request.
 enum:
   - get
   - head

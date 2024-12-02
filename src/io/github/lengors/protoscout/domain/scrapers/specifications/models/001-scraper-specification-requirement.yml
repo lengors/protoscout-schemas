@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/001-scraper-specification-requirement.yml
 
-title: Scraper specification's requirement
-description: Required custom input for scraper
+title: Scraper specification's requirement.
+description: Required custom input for scraper.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequirement
 javaInterfaces:
@@ -19,11 +19,11 @@ required:
 properties:
   name:
     type: string
-    title: Scraper's requirement name
-    description: Name of requirement for scraper
+    title: Scraper's requirement name.
+    description: Name of requirement for scraper.
   type:
     $ref: 000-scraper-specification-requirement-type.yml#/
   default:
     type: string
-    title: Scraper's requirement default value
-    description: Default value to fill requirement with, if not specified
+    title: Scraper's requirement default value.
+    description: Default value to fill requirement with, if not specified.

@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/003-scraper-specification-json-payload.yml
 
-title: Scraper web request json payload
-description: Json payload to be used by scraper's web request
+title: Scraper web request json payload.
+description: Json payload to be used by scraper's web request.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJsonPayload
 javaInterfaces:
