@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/006-scraper-specification-handler.yml
 
-title: Scraper specification handler
-description: Handler used by scraper for handling current context
+title: Scraper specification handler.
+description: Handler used by scraper for handling current context.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationHandler
 javaInterfaces:
@@ -20,8 +20,8 @@ required:
 properties:
   name:
     type: string
-    title: Scraper's handler's name
-    description: Name of scraper's handler
+    title: Scraper's handler's name.
+    description: Name of scraper's handler.
 
   matches:
     $ref: 000-scraper-specification-jexl-expression.yml#/

@@ -5,6 +5,6 @@ $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/001-scra
 existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
 oneOf:
   - type: string
-    title: Scraper's expression value
-    description: Expression value to use on scraper computable properties
+    title: Scraper's expression value.
+    description: Expression value to use on scraper computable properties.
   - $ref: 000-scraper-specification-jexl-expression.yml#/
