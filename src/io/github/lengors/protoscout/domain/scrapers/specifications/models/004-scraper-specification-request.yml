@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/004-scraper-specification-request.yml
 
-title: Scraper web request specification
-description: Definition for performing web request by scraper
+title: Scraper web request specification.
+description: Definition for performing web request by scraper.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequest
 javaInterfaces:

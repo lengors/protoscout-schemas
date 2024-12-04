@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/004-scraper-specification-return.yml
 
-title: Scraper return data
-description: Data to be returned by scraper
+title: Scraper return data.
+description: Data to be returned by scraper.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturn
 javaInterfaces:
@@ -38,7 +38,7 @@ properties:
     $ref: 001-scraper-specification-expression.yml#/
   details:
     type: array
-    title: Scraper return detail data list
-    description: List of detail data to be returned by scraper
+    title: Scraper return detail data list.
+    description: List of detail data to be returned by scraper.
     items:
       $ref: 003-scraper-specification-return-detail.yml#/

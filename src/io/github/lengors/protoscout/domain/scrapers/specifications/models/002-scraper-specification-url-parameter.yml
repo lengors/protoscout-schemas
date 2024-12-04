@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-url-parameter.yml
 
-title: Scraper's url parameter
-description: Parameter for scraper's url
+title: Scraper's url parameter.
+description: Parameter for scraper's url.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationUrlParameter
 javaInterfaces:

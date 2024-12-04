@@ -5,8 +5,8 @@ $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultQuantityModifier
 
 type: string
-title: Result quantity modifier
-description: Specifies some modification for how to interpret quantity
+title: Result quantity modifier.
+description: Specifies some modification for how to interpret quantity.
 enum:
   - exact
   - at-least

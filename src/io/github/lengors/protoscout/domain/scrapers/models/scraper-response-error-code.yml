@@ -5,8 +5,8 @@ $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-error-
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseErrorCode
 
 type: string
-title: Error code
-description: Code associated with error
+title: Error code.
+description: Code associated with error.
 enum:
   - specification_not_found
   - invalid_input

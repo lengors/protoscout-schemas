@@ -5,8 +5,8 @@ $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result
 javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeInstantGrain
 
 type: string
-title: Result date-time instant granularity
-description: Granularity of date-time instant associated with scrapped result
+title: Result date-time instant granularity.
+description: Granularity of date-time instant associated with scrapped result.
 enum:
   - second
   - minute

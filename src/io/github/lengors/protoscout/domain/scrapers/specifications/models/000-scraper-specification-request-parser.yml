@@ -5,8 +5,8 @@ $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/000-scra
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequestParser
 
 type: string
-title: Scraper's request response parser
-description: Parser to use to parse request's response
+title: Scraper's request response parser.
+description: Parser to use to parse request's response.
 enum:
   - html
   - json

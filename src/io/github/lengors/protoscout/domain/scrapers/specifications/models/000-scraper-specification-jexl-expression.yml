@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/000-scraper-specification-jexl-expression.yml
 
-title: Scraper specification JEXL expression
-description: JEXL expression to compute value for scraper property
+title: Scraper specification JEXL expression.
+description: JEXL expression to compute value for scraper property.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
 javaInterfaces:
@@ -19,5 +19,5 @@ required:
 properties:
   jexl:
     type: string
-    title: Scraper's jexl expression
-    description: A jexl expression used for some property of scraper
+    title: Scraper's jexl expression.
+    description: A jexl expression used for some property of scraper.

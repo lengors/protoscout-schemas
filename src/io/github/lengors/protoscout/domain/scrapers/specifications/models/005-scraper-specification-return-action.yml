@@ -2,8 +2,8 @@
 $schema: http://json-schema.org/draft-07/schema
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/005-scraper-specification-return-action.yml
 
-title: Scraper specification handler's returning action
-description: Returning action performed by handler
+title: Scraper specification handler's returning action.
+description: Returning action performed by handler.
 
 javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnAction
 javaInterfaces:
