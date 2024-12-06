@@ -1,4 +1,4 @@
-# Welcome to protoscout-schemas &middot; [![GitHub license](https://img.shields.io/github/license/lengors/protoscout-schemas?color=blue)](https://github.com/lengors/protoscout-schemas/blob/main/LICENSE)
+# Welcome to ProtoScout Schemas &middot; [![GitHub license](https://img.shields.io/github/license/lengors/protoscout-schemas?color=blue)](https://github.com/lengors/protoscout-schemas/blob/main/LICENSE)
 
 Welcome to the **protoscout-schemas** repository! This project provides a centralized collection of JSON schemas that define the communication protocol for interacting with the [WebScout](https://github.com/lengors/webscout) microservice.
 
