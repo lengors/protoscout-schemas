@@ -1,24 +1,28 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-return-extract-stock"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-return-extract-stock.yml
 
-title: Scraper return stock extract data.
-description: Extract stock data to be returned by scraper.
+components:
+  schemas:
+    scraper-specification-return-extract-stock:
+      title: Scraper return stock extract data.
+      description: Extract stock data to be returned by scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractStock
-javaInterfaces:
-  - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractStock
+      javaInterfaces:
+        - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - availability
+      required:
+        - availability
 
-properties:
-  availability:
-    $ref: 001-scraper-specification-expression.yml#/
-  storage:
-    $ref: 001-scraper-specification-expression.yml#/
-  delivery_date_time:
-    $ref: 001-scraper-specification-expression.yml#/
+      properties:
+        availability:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        storage:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        delivery_date_time:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression

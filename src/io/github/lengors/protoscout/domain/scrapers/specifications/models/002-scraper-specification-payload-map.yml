@@ -1,14 +1,18 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-payload-map"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-payload-map.yml
 
-title: Scraper web request payload.
-description: Payload to be used by scraper's web request.
+components:
+  schemas:
+    scraper-specification-payload-map:
+      title: Scraper web request payload.
+      description: Payload to be used by scraper's web request.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayloadMap
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayloadMap
+      javaInterfaces:
+        - java.io.Serializable
 
-type: object
-additionalProperties:
-  $ref: 001-scraper-specification-expression.yml#/
+      type: object
+      additionalProperties:
+        $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression

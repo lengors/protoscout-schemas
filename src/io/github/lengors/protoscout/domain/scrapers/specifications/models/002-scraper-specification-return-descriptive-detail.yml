@@ -1,25 +1,29 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-return-descriptive-detail"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-return-descriptive-detail.yml
 
-title: Scraper return descriptive detail data.
-description: Descriptive detail data to be returned by scraper.
+components:
+  schemas:
+    scraper-specification-return-descriptive-detail:
+      title: Scraper return descriptive detail data.
+      description: Descriptive detail data to be returned by scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptiveDetail
-javaInterfaces:
-  - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptiveDetail
+      javaInterfaces:
+        - io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - name
-  - description
+      required:
+        - name
+        - description
 
-properties:
-  name:
-    $ref: 001-scraper-specification-expression.yml#/
-  description:
-    $ref: 001-scraper-specification-expression.yml#/
-  image:
-    $ref: 001-scraper-specification-expression.yml#/
+      properties:
+        name:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        description:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        image:
+          $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
