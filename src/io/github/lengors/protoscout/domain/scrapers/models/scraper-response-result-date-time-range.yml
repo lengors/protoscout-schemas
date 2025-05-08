@@ -6,7 +6,7 @@ $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result
 components:
   schemas:
     scraper-response-result-date-time-range:
-      title: Result date-time rage.
+      title: Result date-time range.
       description: Date-time range associated with scrapped result.
 
       javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeRange
