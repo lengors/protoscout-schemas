@@ -1,18 +1,22 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-result-grading"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-grading.yml
 
-title: Scraper response result grading.
-description: Grading for result of scraper.
+components:
+  schemas:
+    scraper-response-result-grading:
+      title: Scraper response result grading.
+      description: Grading for result of scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultGrading
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultGrading
+      javaInterfaces:
+        - java.io.Serializable
 
-type: string
-enum:
-  - a
-  - b
-  - c
-  - d
-  - e
+      type: string
+      enum:
+        - a
+        - b
+        - c
+        - d
+        - e

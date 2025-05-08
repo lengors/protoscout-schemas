@@ -1,33 +1,37 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-error"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-error.yml
 
-title: Scraper response error.
-description: Response with error data associated with a failure in scraper.
+components:
+  schemas:
+    scraper-response-error:
+      title: Scraper response error.
+      description: Response with error data associated with a failure in scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseError
-javaInterfaces:
-  - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse
+      javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseError
+      javaInterfaces:
+        - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - code
-  - specification_name
+      required:
+        - code
+        - specification_name
 
-properties:
-  code:
-    $ref: scraper-response-error-code.yml#/
-  specification_name:
-    type: string
-    title: Specification's name.
-    description: Name of scraper specification that caused the error.
-  handler_name:
-    type: string
-    title: Handler name.
-    description: Name of scraper handler that caused the error.
-  message:
-    type: string
-    title: Error message.
-    description: Message associated with error.
+      properties:
+        code:
+          $ref: scraper-response-error-code.yml#/components/schemas/scraper-response-error-code
+        specification_name:
+          type: string
+          title: Specification's name.
+          description: Name of scraper specification that caused the error.
+        handler_name:
+          type: string
+          title: Handler name.
+          description: Name of scraper handler that caused the error.
+        message:
+          type: string
+          title: Error message.
+          description: Message associated with error.

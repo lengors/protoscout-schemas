@@ -1,9 +1,13 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-result-detail"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-detail.yml
 
-existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDetail
+components:
+  schemas:
+    scraper-response-result-detail:
+      existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDetail
 
-oneOf:
-  - $ref: scraper-response-result-descriptionless-detail.yml#/
-  - $ref: scraper-response-result-descriptive-detail.yml#/
+      oneOf:
+        - $ref: scraper-response-result-descriptionless-detail.yml#/components/schemas/scraper-response-result-descriptionless-detail
+        - $ref: scraper-response-result-descriptive-detail.yml#/components/schemas/scraper-response-result-descriptive-detail

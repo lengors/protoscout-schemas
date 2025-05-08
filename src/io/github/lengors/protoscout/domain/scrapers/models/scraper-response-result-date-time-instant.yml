@@ -1,26 +1,30 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-result-date-time-instant"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-date-time-instant.yml
 
-title: Result date-time instant.
-description: Date-time instant associated with scrapped result.
+components:
+  schemas:
+    scraper-response-result-date-time-instant:
+      title: Result date-time instant.
+      description: Date-time instant associated with scrapped result.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeInstant
-javaInterfaces:
-  - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime
+      javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeInstant
+      javaInterfaces:
+        - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - value
-  - grain
+      required:
+        - value
+        - grain
 
-properties:
-  value:
-    type: string
-    title: Result date-time instant value.
-    description: Value of date-time instant associated with scrapped result.
-    format: date-time
-  grain:
-    $ref: scraper-response-result-date-time-instant-grain.yml#/
+      properties:
+        value:
+          type: string
+          title: Result date-time instant value.
+          description: Value of date-time instant associated with scrapped result.
+          format: date-time
+        grain:
+          $ref: scraper-response-result-date-time-instant-grain.yml#/components/schemas/scraper-response-result-date-time-instant-grain
