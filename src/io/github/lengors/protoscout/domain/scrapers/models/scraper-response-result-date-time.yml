@@ -1,8 +1,12 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-result-date-time"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-date-time.yml
 
-existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime
-oneOf:
-  - $ref: scraper-response-result-date-time-instant.yml#/
-  - $ref: scraper-response-result-date-time-range.yml#/
+components:
+  schemas:
+    scraper-response-result-date-time:
+      existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime
+      oneOf:
+        - $ref: scraper-response-result-date-time-instant.yml#/components/schemas/scraper-response-result-date-time-instant
+        - $ref: scraper-response-result-date-time-range.yml#/components/schemas/scraper-response-result-date-time-range

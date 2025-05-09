@@ -1,16 +1,20 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-inputs"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-inputs.yml
 
-title: Scraper inputs.
-description: Map of scraper inputs.
+components:
+  schemas:
+    scraper-inputs:
+      title: Scraper inputs.
+      description: Map of scraper inputs.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperInputs
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperInputs
+      javaInterfaces:
+        - java.io.Serializable
 
-type: object
-additionalProperties:
-  type: string
-  title: Scraper input value.
-  description: Value of scraper input.
+      type: object
+      additionalProperties:
+        type: string
+        title: Scraper input value.
+        description: Value of scraper input.

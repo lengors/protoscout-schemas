@@ -1,14 +1,18 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-header-map"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-header-map.yml
 
-title: Scraper web request header map.
-description: Header map to be used by scraper's web request.
+components:
+  schemas:
+    scraper-specification-header-map:
+      title: Scraper web request header map.
+      description: Header map to be used by scraper's web request.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationHeaderMap
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationHeaderMap
+      javaInterfaces:
+        - java.io.Serializable
 
-type: object
-additionalProperties:
-  $ref: 001-scraper-specification-expression.yml#/
+      type: object
+      additionalProperties:
+        $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression

@@ -1,23 +1,27 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-jexl-expression"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/000-scraper-specification-jexl-expression.yml
 
-title: Scraper specification JEXL expression.
-description: JEXL expression to compute value for scraper property.
+components:
+  schemas:
+    scraper-specification-jexl-expression:
+      title: Scraper specification JEXL expression.
+      description: JEXL expression to compute value for scraper property.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
-javaInterfaces:
-  - java.io.Serializable
-  - io.github.lengors.protoscout.domain.jexl.models.JexlExpressionSpecification
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
+      javaInterfaces:
+        - java.io.Serializable
+        - io.github.lengors.protoscout.domain.jexl.models.JexlExpressionSpecification
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - jexl
+      required:
+        - jexl
 
-properties:
-  jexl:
-    type: string
-    title: Scraper's jexl expression.
-    description: A jexl expression used for some property of scraper.
+      properties:
+        jexl:
+          type: string
+          title: Scraper's jexl expression.
+          description: A jexl expression used for some property of scraper.
