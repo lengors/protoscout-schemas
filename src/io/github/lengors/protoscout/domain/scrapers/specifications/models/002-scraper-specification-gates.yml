@@ -1,36 +1,40 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-gates"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/002-scraper-specification-gates.yml
 
-title: Scraper's gates.
-description: Gate operations for handler.
+components:
+  schemas:
+    scraper-specification-gates:
+      title: Scraper's gates.
+      description: Gate operations for handler.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationGates
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationGates
+      javaInterfaces:
+        - java.io.Serializable
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - requires
+      required:
+        - requires
 
-properties:
-  opens:
-    type: array
-    title: Scraper's opening gates.
-    description: List of gates to open when the handler is applied.
-    items:
-      $ref: 001-scraper-specification-expression.yml#/
-  closes:
-    type: array
-    title: Scraper's closing gates.
-    description: List of gates to close when the handler is applied.
-    items:
-      $ref: 001-scraper-specification-expression.yml#/
-  requires:
-    type: array
-    title: Scraper's required gates.
-    description: List of gates required for handler to be applicable.
-    items:
-      $ref: 001-scraper-specification-expression.yml#/
+      properties:
+        opens:
+          type: array
+          title: Scraper's opening gates.
+          description: List of gates to open when the handler is applied.
+          items:
+            $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        closes:
+          type: array
+          title: Scraper's closing gates.
+          description: List of gates to close when the handler is applied.
+          items:
+            $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression
+        requires:
+          type: array
+          title: Scraper's required gates.
+          description: List of gates required for handler to be applicable.
+          items:
+            $ref: 001-scraper-specification-expression.yml#/components/schemas/scraper-specification-expression

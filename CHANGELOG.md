@@ -1,3 +1,15 @@
+# [v1.0.2-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.1...v1.0.2-alpha.1) (2025-05-09)
+
+## 🐛 Bug Fixes
+
+- [`97c108a`](https://github.com/lengors/protoscout-schemas/commit/97c108a) Dummy commit to force deployment
+
+# [v1.0.2-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.1...v1.0.2-dev.1) (2025-05-08)
+
+## 🐛 Bug Fixes
+
+- [`97c108a`](https://github.com/lengors/protoscout-schemas/commit/97c108a) Dummy commit to force deployment
+
 # [v1.0.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.0...v1.0.1) (2024-12-04)
 
 ## 🐛 Bug Fixes

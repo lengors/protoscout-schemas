@@ -1,64 +1,68 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-response-result"
 $id: io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result.yml
 
-title: Scraper response result.
-description: Response with result of scraper.
+components:
+  schemas:
+    scraper-response-result:
+      title: Scraper response result.
+      description: Response with result of scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResult
-javaInterfaces:
-  - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse
+      javaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResult
+      javaInterfaces:
+        - io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - url
-  - specification_name
-  - description
-  - brand
-  - price
+      required:
+        - url
+        - specification_name
+        - description
+        - brand
+        - price
 
-properties:
-  url:
-    type: string
-    title: Default url.
-    description: Default url used for scraping result.
-  specification_name:
-    type: string
-    title: Specification's name.
-    description: Specification's name responsible for generating this result.
-  description:
-    type: string
-    title: Result description.
-    description: Description of scrapped result.
-  brand:
-    $ref: scraper-response-result-brand.yml#/
-  price:
-    $ref: scraper-response-result-price.yml#/
-  image:
-    type: string
-    title: Result image.
-    description: Image associated with scrapped result.
-  stocks:
-    type: array
-    title: Result stock data list.
-    description: Stock data list associated with result.
-    items:
-      $ref: scraper-response-result-stock.yml#/
-  grip:
-    $ref: scraper-response-result-grading.yml#/
-  noise:
-    $ref: scraper-response-result-noise-level.yml#/
-  decibels:
-    type: integer
-    title: Result decibels.
-    description: Decibels value associated with scrapped result.
-  consumption:
-    $ref: scraper-response-result-grading.yml#/
-  details:
-    type: array
-    title: Result detail data list.
-    description: Detail data list associated with result.
-    items:
-      $ref: scraper-response-result-detail.yml#/
+      properties:
+        url:
+          type: string
+          title: Default url.
+          description: Default url used for scraping result.
+        specification_name:
+          type: string
+          title: Specification's name.
+          description: Specification's name responsible for generating this result.
+        description:
+          type: string
+          title: Result description.
+          description: Description of scrapped result.
+        brand:
+          $ref: scraper-response-result-brand.yml#/components/schemas/scraper-response-result-brand
+        price:
+          $ref: scraper-response-result-price.yml#/components/schemas/scraper-response-result-price
+        image:
+          type: string
+          title: Result image.
+          description: Image associated with scrapped result.
+        stocks:
+          type: array
+          title: Result stock data list.
+          description: Stock data list associated with result.
+          items:
+            $ref: scraper-response-result-stock.yml#/components/schemas/scraper-response-result-stock
+        grip:
+          $ref: scraper-response-result-grading.yml#/components/schemas/scraper-response-result-grading
+        noise:
+          $ref: scraper-response-result-noise-level.yml#/components/schemas/scraper-response-result-noise-level
+        decibels:
+          type: integer
+          title: Result decibels.
+          description: Decibels value associated with scrapped result.
+        consumption:
+          $ref: scraper-response-result-grading.yml#/components/schemas/scraper-response-result-grading
+        details:
+          type: array
+          title: Result detail data list.
+          description: Detail data list associated with result.
+          items:
+            $ref: scraper-response-result-detail.yml#/components/schemas/scraper-response-result-detail
