@@ -1,37 +1,41 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-request"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/004-scraper-specification-request.yml
 
-title: Scraper web request specification.
-description: Definition for performing web request by scraper.
+components:
+  schemas:
+    scraper-specification-request:
+      title: Scraper web request specification.
+      description: Definition for performing web request by scraper.
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequest
-javaInterfaces:
-  - java.io.Serializable
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequest
+      javaInterfaces:
+        - java.io.Serializable
 
-type: object
-additionalProperties: false
+      type: object
+      additionalProperties: false
 
-required:
-  - url
-  - method
-  - parser
+      required:
+        - url
+        - method
+        - parser
 
-properties:
-  url:
-    $ref: 003-scraper-specification-url.yml#/
+      properties:
+        url:
+          $ref: 003-scraper-specification-url.yml#/components/schemas/scraper-specification-url
 
-  method:
-    $ref: 000-scraper-specification-request-method.yml#/
+        method:
+          $ref: 000-scraper-specification-request-method.yml#/components/schemas/scraper-specification-request-method
 
-  headers:
-    $ref: 002-scraper-specification-header-map.yml#/
+        headers:
+          $ref: 002-scraper-specification-header-map.yml#/components/schemas/scraper-specification-header-map
 
-  payload:
-    existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload
-    oneOf:
-      - $ref: 003-scraper-specification-data-payload.yml#/
-      - $ref: 003-scraper-specification-json-payload.yml#/
+        payload:
+          existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload
+          oneOf:
+            - $ref: 003-scraper-specification-data-payload.yml#/components/schemas/scraper-specification-data-payload
+            - $ref: 003-scraper-specification-json-payload.yml#/components/schemas/scraper-specification-json-payload
 
-  parser:
-    $ref: 000-scraper-specification-request-parser.yml#/
+        parser:
+          $ref: 000-scraper-specification-request-parser.yml#/components/schemas/scraper-specification-request-parser

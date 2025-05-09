@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema
 $schema: http://json-schema.org/draft-07/schema
+$ref: "#/components/schemas/scraper-specification-requirement-type"
 $id: io/github/lengors/protoscout/domain/scrapers/specifications/models/000-scraper-specification-requirement-type.yml
 
-javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequirementType
+components:
+  schemas:
+    scraper-specification-requirement-type:
+      javaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequirementType
 
-type: string
-title: Scraper's requirement type.
-description: Type of requirement for scraper.
-enum:
-  - text
-  - password
-  - email
+      type: string
+      title: Scraper's requirement type.
+      description: Type of requirement for scraper.
+      enum:
+        - text
+        - password
+        - email
