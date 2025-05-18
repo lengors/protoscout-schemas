@@ -28,7 +28,4 @@ components:
           title: Scraper return stock data list.
           description: List of stock data to be returned by scraper.
           items:
-            existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock
-            anyOf:
-              - $ref: 002-scraper-specification-return-extract-stock.yml#/components/schemas/scraper-specification-return-extract-stock
-              - $ref: "#/components/schemas/scraper-specification-return-flat-stock"
+            $ref: 002-scraper-specification-return-extract-stock.yml#/components/schemas/scraper-specification-return-extract-stock
