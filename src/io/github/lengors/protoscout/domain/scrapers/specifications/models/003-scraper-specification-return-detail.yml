@@ -7,7 +7,6 @@ components:
   schemas:
     scraper-specification-return-detail:
       existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail
-
-      oneOf:
+      anyOf:
         - $ref: 002-scraper-specification-return-descriptive-detail.yml#/components/schemas/scraper-specification-return-descriptive-detail
         - $ref: 002-scraper-specification-return-descriptionless-detail.yml#/components/schemas/scraper-specification-return-descriptionless-detail
