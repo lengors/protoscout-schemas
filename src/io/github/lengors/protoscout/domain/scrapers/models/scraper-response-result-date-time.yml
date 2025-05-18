@@ -7,6 +7,6 @@ components:
   schemas:
     scraper-response-result-date-time:
       existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime
-      oneOf:
+      anyOf:
         - $ref: scraper-response-result-date-time-instant.yml#/components/schemas/scraper-response-result-date-time-instant
         - $ref: scraper-response-result-date-time-range.yml#/components/schemas/scraper-response-result-date-time-range

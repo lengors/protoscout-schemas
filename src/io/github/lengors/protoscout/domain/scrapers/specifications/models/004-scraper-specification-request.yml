@@ -33,7 +33,7 @@ components:
 
         payload:
           existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload
-          oneOf:
+          anyOf:
             - $ref: 003-scraper-specification-data-payload.yml#/components/schemas/scraper-specification-data-payload
             - $ref: 003-scraper-specification-json-payload.yml#/components/schemas/scraper-specification-json-payload
 
