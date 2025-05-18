@@ -7,7 +7,7 @@ components:
   schemas:
     scraper-specification-map:
       existingJavaType: java.util.List<io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression>
-      oneOf:
+      anyOf:
         - $ref: 000-scraper-specification-jexl-expression.yml#/components/schemas/scraper-specification-jexl-expression
         - type: array
           title: Scraper specification handler's mapping expressions.
