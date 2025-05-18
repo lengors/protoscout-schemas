@@ -7,7 +7,7 @@ components:
   schemas:
     scraper-specification-expression:
       existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression
-      oneOf:
+      anyOf:
         - type: string
           title: Scraper's expression value.
           description: Expression value to use on scraper computable properties.

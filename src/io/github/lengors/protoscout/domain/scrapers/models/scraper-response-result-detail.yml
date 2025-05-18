@@ -7,7 +7,6 @@ components:
   schemas:
     scraper-response-result-detail:
       existingJavaType: io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDetail
-
-      oneOf:
+      anyOf:
         - $ref: scraper-response-result-descriptionless-detail.yml#/components/schemas/scraper-response-result-descriptionless-detail
         - $ref: scraper-response-result-descriptive-detail.yml#/components/schemas/scraper-response-result-descriptive-detail
