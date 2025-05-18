@@ -1,3 +1,9 @@
+# [v1.1.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v1.1.1-dev.1) (2025-05-18)
+
+## 🐛 Bug Fixes
+
+- [`19839ae`](https://github.com/lengors/protoscout-schemas/commit/19839ae) Extract scraper specification stock array
+
 # [v1.1.0](https://github.com/lengors/protoscout-schemas/compare/v1.0.2...v1.1.0) (2025-05-18)
 
 ## ✨ New Features
