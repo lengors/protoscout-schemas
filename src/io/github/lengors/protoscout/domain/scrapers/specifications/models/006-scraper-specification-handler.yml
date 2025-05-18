@@ -35,7 +35,7 @@ components:
 
         action:
           existingJavaType: io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationAction
-          oneOf:
+          anyOf:
             - $ref: 001-scraper-specification-flat-action.yml#/components/schemas/scraper-specification-flat-action
             - $ref: 002-scraper-specification-map-action.yml#/components/schemas/scraper-specification-map-action
             - $ref: 005-scraper-specification-request-action.yml#/components/schemas/scraper-specification-request-action
