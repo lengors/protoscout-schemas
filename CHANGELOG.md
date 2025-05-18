@@ -1,5 +1,9 @@
 # [v1.0.3-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.2...v1.0.3-dev.1) (2025-05-18)
 
+## 🐛 Bug Fixes
+
+- [`69b7873`](https://github.com/lengors/protoscout-schemas/commit/69b7873) Replace `oneOf` with `anyOf`
+
 # [v1.0.2](https://github.com/lengors/protoscout-schemas/compare/v1.0.1...v1.0.2) (2025-05-09)
 
 ## 🐛 Bug Fixes
