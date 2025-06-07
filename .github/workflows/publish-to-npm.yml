@@ -1,5 +1,5 @@
 ---
-name: Publish
+name: Publish to NPM
 
 on:
   push:
@@ -14,8 +14,6 @@ jobs:
     name: Publish new version
     runs-on: ubuntu-latest
     environment: publisher
-    outputs:
-      new_release_published: ${{ steps.semantic-release.outputs.new_release_published }}
     steps:
       - name: Create GitHub app token
         uses: actions/create-github-app-token@v1
@@ -37,15 +35,28 @@ jobs:
           passphrase: ${{ secrets.GPG_PASSPHRASE }}
           git_user_signingkey: true
           git_commit_gpgsign: true
+      - name: Setup Node.js 22.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Verify integrity
+        run: npm audit signatures
+      - name: Build package
+        run: npm run build -w schemas
       - name: Publish version
         uses: cycjimmy/semantic-release-action@v4
         id: semantic-release
         with:
           extra_plugins: |
             @semantic-release/exec
+            @semantic-release/git
             semantic-release-gitmoji
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GIT_AUTHOR_NAME: ${{ steps.import-gpg.outputs.name }}
           GIT_AUTHOR_EMAIL: ${{ steps.import-gpg.outputs.email }}
           GIT_COMMITTER_NAME: ${{ steps.import-gpg.outputs.name }}
