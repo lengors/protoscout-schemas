@@ -13,9 +13,14 @@ plugins:
     - changelogFile: CHANGELOG.md
   - - "@semantic-release/exec"
     - prepareCmd: "npx prettier --write CHANGELOG.md"
+  - - "@semantic-release/npm"
+    - pkgRoot: schemas
   - "@semantic-release/github"
   - - "@semantic-release/git"
     - assets:
         - CHANGELOG.md
         - package.json
+        - package-lock.json
+        - schemas/package.json
+        - schemas/package-lock.json
       message: "🔖 Update `package.json` to `${nextRelease.version}` [skip release]\n\n${nextRelease.notes}"
