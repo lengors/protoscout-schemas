@@ -1,3 +1,9 @@
+# [v2.0.0-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.1-dev.1...v2.0.0-dev.1) (2025-06-08)
+
+## 💥 Breaking Changes
+
+- [`a224ffb`](https://github.com/lengors/protoscout-schemas/commit/a224ffb) Replace JSON schemas with zod schemas
+
 # [v1.1.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v1.1.1-dev.1) (2025-05-18)
 
 ## 🐛 Bug Fixes
