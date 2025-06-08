@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-date-time-instant.json",
+  "title": "Result date-time instant.",
+  "description": "Date-time instant associated with scrapped result.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeInstant",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "value": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^((\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-((0[13578]|1[02])-(0[1-9]|[12]\\d|3[01])|(0[469]|11)-(0[1-9]|[12]\\d|30)|(02)-(0[1-9]|1\\d|2[0-8])))T([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(\\.\\d+)?(Z)$",
+      "title": "Result date-time instant value.",
+      "description": "Value of date-time instant associated with scrapped result."
+    },
+    "grain": {
+      "$ref": "scraper-response-result-date-time-instant-grain.json"
+    }
+  },
+  "required": [
+    "value",
+    "grain"
+  ]
+}

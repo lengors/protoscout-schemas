@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "string",
+  "enum": [
+    "get",
+    "head",
+    "post",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-request-method.json",
+  "title": "Scraper's request HTTP method.",
+  "description": "HTTP method used for scraper's request.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequestMethod"
+}

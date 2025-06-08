@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-flat-stock.json",
+  "title": "Scraper return stock flatting data.",
+  "description": "Flat stock data from expression that's to be returned by scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnFlatStock",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "flattens": {
+      "$ref": "scraper-specification-jexl-expression.json"
+    },
+    "extracts": {
+      "$ref": "scraper-specification-return-extract-stock.json"
+    }
+  },
+  "required": [
+    "flattens",
+    "extracts"
+  ]
+}

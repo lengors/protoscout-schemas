@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-requirement.json",
+  "title": "Scraper specification's requirement.",
+  "description": "Required custom input for scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationRequirement",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Scraper's requirement name.",
+      "description": "Name of requirement for scraper."
+    },
+    "type": {
+      "$ref": "scraper-specification-requirement-type.json"
+    },
+    "default": {
+      "type": "string",
+      "title": "Scraper's requirement default value.",
+      "description": "Default value to fill requirement with, if not specified."
+    }
+  },
+  "required": [
+    "name",
+    "type"
+  ]
+}

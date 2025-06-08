@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-header-map.json",
+  "title": "Scraper web request header map.",
+  "description": "Header map to be used by scraper's web request.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationHeaderMap",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "type": "object",
+  "propertyNames": {
+    "type": "string"
+  },
+  "additionalProperties": {
+    "$ref": "scraper-specification-expression.json"
+  }
+}

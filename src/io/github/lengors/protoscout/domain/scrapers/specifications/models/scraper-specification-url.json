@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-url.json",
+  "title": "Scraper url specification.",
+  "description": "Url specification for scraper default url and request url.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationUrl",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "location": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "scheme": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "host": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "path": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "parameters": {
+      "readOnly": true,
+      "title": "Scraper's url parameter array.",
+      "description": "Parameter array for scraper's url.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-url-parameter.json"
+      }
+    }
+  }
+}

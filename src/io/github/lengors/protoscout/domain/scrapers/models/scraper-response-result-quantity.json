@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-quantity.json",
+  "title": "Scraper response result quantity.",
+  "description": "Quantity for data associated with result of scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultQuantity",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "amount": {
+      "type": "integer",
+      "minimum": -2147483648,
+      "maximum": 2147483647,
+      "title": "Result quantity amount.",
+      "description": "Amount for quantity of scrapped result."
+    },
+    "modifier": {
+      "$ref": "scraper-response-result-quantity-modifier.json"
+    }
+  },
+  "required": [
+    "amount",
+    "modifier"
+  ]
+}

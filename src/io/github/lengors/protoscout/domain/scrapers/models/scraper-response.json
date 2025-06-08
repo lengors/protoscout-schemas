@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "anyOf": [
+    {
+      "$ref": "scraper-response-error.json"
+    },
+    {
+      "$ref": "scraper-response-result.json"
+    }
+  ],
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response.json",
+  "existingJavaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse"
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result.json",
+  "title": "Scraper response result.",
+  "description": "Response with result of scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResult",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponse"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "title": "Default url.",
+      "description": "Default url used for scraping result."
+    },
+    "specification_name": {
+      "type": "string",
+      "title": "Specification's name.",
+      "description": "Specification's name responsible for generating this result."
+    },
+    "description": {
+      "type": "string",
+      "title": "Result description.",
+      "description": "Description of scrapped result."
+    },
+    "brand": {
+      "$ref": "scraper-response-result-brand.json"
+    },
+    "price": {
+      "$ref": "scraper-response-result-price.json"
+    },
+    "image": {
+      "type": "string",
+      "title": "Result image.",
+      "description": "Image associated with scrapped result."
+    },
+    "stocks": {
+      "readOnly": true,
+      "title": "Result stock data list.",
+      "description": "Stock data list associated with result.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-response-result-stock.json"
+      }
+    },
+    "grip": {
+      "$ref": "scraper-response-result-grading.json"
+    },
+    "noise": {
+      "$ref": "scraper-response-result-noise-level.json"
+    },
+    "decibels": {
+      "type": "integer",
+      "minimum": -2147483648,
+      "maximum": 2147483647,
+      "title": "Result decibels.",
+      "description": "Decibels value associated with scrapped result."
+    },
+    "consumption": {
+      "$ref": "scraper-response-result-grading.json"
+    },
+    "details": {
+      "readOnly": true,
+      "title": "Result detail data list.",
+      "description": "Detail data list associated with result.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-response-result-detail.json"
+      }
+    }
+  },
+  "required": [
+    "url",
+    "specification_name",
+    "description",
+    "brand",
+    "price"
+  ]
+}

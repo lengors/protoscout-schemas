@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-extract-stock.json",
+  "title": "Scraper return stock extract data.",
+  "description": "Extract stock data to be returned by scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractStock",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "availability": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "storage": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "delivering_on": {
+      "$ref": "scraper-specification-expression.json"
+    }
+  },
+  "required": [
+    "availability"
+  ]
+}

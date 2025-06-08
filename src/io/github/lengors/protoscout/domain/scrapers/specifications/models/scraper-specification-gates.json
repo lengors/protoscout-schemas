@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-gates.json",
+  "title": "Scraper's gates.",
+  "description": "Gate operations for handler.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationGates",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "opens": {
+      "readOnly": true,
+      "title": "Scraper's opening gates.",
+      "description": "List of gates to open when the handler is applied.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-expression.json"
+      }
+    },
+    "closes": {
+      "readOnly": true,
+      "title": "Scraper's closing gates.",
+      "description": "List of gates to close when the handler is applied.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-expression.json"
+      }
+    },
+    "requires": {
+      "readOnly": true,
+      "title": "Scraper's required gates.",
+      "description": "List of gates required for handler to be applicable.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-expression.json"
+      }
+    }
+  },
+  "required": [
+    "requires"
+  ]
+}

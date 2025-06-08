@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-handler.json",
+  "title": "Scraper specification handler.",
+  "description": "Handler used by scraper for handling current context.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationHandler",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Scraper's handler's name.",
+      "description": "Name of scraper's handler."
+    },
+    "matches": {
+      "$ref": "scraper-specification-jexl-expression.json"
+    },
+    "gates": {
+      "$ref": "scraper-specification-gates.json"
+    },
+    "action": {
+      "anyOf": [
+        {
+          "$ref": "scraper-specification-flat-action.json"
+        },
+        {
+          "$ref": "scraper-specification-map-action.json"
+        },
+        {
+          "$ref": "scraper-specification-request-action.json"
+        },
+        {
+          "$ref": "scraper-specification-return-action.json"
+        }
+      ],
+      "existingJavaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationAction"
+    }
+  },
+  "required": [
+    "name",
+    "gates",
+    "action"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-date-time-range.json",
+  "title": "Result date-time range.",
+  "description": "Date-time range associated with scrapped result.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTimeRange",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultDateTime"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "from": {
+      "$ref": "scraper-response-result-date-time-instant.json"
+    },
+    "grain": {
+      "$ref": "scraper-response-result-date-time-instant.json"
+    }
+  },
+  "required": [
+    "from",
+    "grain"
+  ]
+}

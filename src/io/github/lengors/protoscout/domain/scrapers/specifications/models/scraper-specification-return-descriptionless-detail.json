@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-descriptionless-detail.json",
+  "title": "Scraper return descriptionless detail data.",
+  "description": "Descriptionless detail data to be returned by scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptionlessDetail",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "name": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "image": {
+      "$ref": "scraper-specification-expression.json"
+    }
+  },
+  "required": [
+    "name",
+    "image"
+  ]
+}

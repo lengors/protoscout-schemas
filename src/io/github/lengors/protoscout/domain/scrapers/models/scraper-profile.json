@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-profile.json",
+  "title": "Scraper profile.",
+  "description": "Association between scraper's specification name and map of inputs for request.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperProfile",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "specification_name": {
+      "type": "string",
+      "title": "Scraper name.",
+      "description": "Name of scraper associated with inputs."
+    },
+    "inputs": {
+      "$ref": "scraper-inputs.json"
+    }
+  },
+  "required": [
+    "specification_name",
+    "inputs"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-jexl-expression.json",
+  "title": "Scraper specification JEXL expression.",
+  "description": "JEXL expression to compute value for scraper property.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationJexlExpression",
+  "javaInterfaces": [
+    "java.io.Serializable",
+    "io.github.lengors.protoscout.domain.jexl.models.JexlExpressionSpecification"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "jexl": {
+      "type": "string",
+      "title": "Scraper's jexl expression.",
+      "description": "A jexl expression used for some property of scraper."
+    }
+  },
+  "required": [
+    "jexl"
+  ]
+}

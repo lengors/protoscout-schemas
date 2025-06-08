@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-data-payload.json",
+  "title": "Scraper web request data payload.",
+  "description": "Data payload to be used by scraper's web request.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationDataPayload",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "data": {
+      "$ref": "scraper-specification-payload-map.json"
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

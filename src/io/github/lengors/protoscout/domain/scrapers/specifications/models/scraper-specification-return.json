@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return.json",
+  "title": "Scraper return data.",
+  "description": "Data to be returned by scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturn",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "description": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "brand": {
+      "$ref": "scraper-specification-return-brand.json"
+    },
+    "price": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "image": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "stocks": {
+      "readOnly": true,
+      "title": "Scraper return stock data list.",
+      "description": "List of stock data to be returned by scraper.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "scraper-specification-return-extract-stock.json"
+          },
+          {
+            "$ref": "scraper-specification-return-flat-stock.json"
+          }
+        ],
+        "existingJavaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock"
+      }
+    },
+    "grip": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "noise": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "decibels": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "consumption": {
+      "$ref": "scraper-specification-expression.json"
+    },
+    "details": {
+      "readOnly": true,
+      "title": "Scraper return detail data list.",
+      "description": "List of detail data to be returned by scraper.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-return-detail.json"
+      }
+    }
+  },
+  "required": [
+    "description",
+    "brand",
+    "price"
+  ]
+}

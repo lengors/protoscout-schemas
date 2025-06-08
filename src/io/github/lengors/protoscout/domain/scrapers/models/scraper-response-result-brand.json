@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-brand.json",
+  "title": "Scraper response result brand.",
+  "description": "Brand data associated with result of scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultBrand",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "description": {
+      "type": "string",
+      "title": "Brand description.",
+      "description": "Description for brand associated with scrapped result."
+    },
+    "image": {
+      "type": "string",
+      "title": "Brand image.",
+      "description": "Image of brand associated with scrapped result."
+    }
+  },
+  "required": [
+    "description"
+  ]
+}

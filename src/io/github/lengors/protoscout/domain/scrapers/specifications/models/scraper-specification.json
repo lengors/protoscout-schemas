@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification.json",
+  "title": "Scraper specification.",
+  "description": "Scraper specification definition.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecification",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Scraper's specification name.",
+      "description": "Name of scraper specification."
+    },
+    "settings": {
+      "$ref": "scraper-specification-settings.json"
+    },
+    "handlers": {
+      "readOnly": true,
+      "title": "Scraper's handlers specification.",
+      "description": "List of scraper's handlers specification.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-handler.json"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "settings",
+    "handlers"
+  ]
+}

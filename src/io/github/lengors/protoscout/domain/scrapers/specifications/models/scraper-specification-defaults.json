@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-defaults.json",
+  "title": "Scraper default values.",
+  "description": "Default values to inject scraper context with.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationDefaults",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "url": {
+      "$ref": "scraper-specification-url.json"
+    },
+    "headers": {
+      "$ref": "scraper-specification-header-map.json"
+    },
+    "gates": {
+      "readOnly": true,
+      "title": "Scraper's settings default gates.",
+      "description": "List of gates initially injected into the scraper.",
+      "type": "array",
+      "items": {
+        "$ref": "scraper-specification-expression.json"
+      }
+    }
+  },
+  "required": [
+    "url",
+    "gates"
+  ]
+}

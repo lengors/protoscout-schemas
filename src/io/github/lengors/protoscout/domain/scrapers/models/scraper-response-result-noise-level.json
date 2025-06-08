@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "string",
+  "enum": [
+    "a",
+    "b",
+    "c"
+  ],
+  "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-noise-level.json",
+  "title": "Scraper response result noise level.",
+  "description": "Noise level for result of scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.models.ScraperResponseResultNoiseLevel",
+  "javaInterfaces": [
+    "java.io.Serializable"
+  ]
+}
