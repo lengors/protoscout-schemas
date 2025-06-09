@@ -1,3 +1,9 @@
+# [v2.0.1](https://github.com/lengors/protoscout-schemas/compare/v2.0.0...v2.0.1) (2025-06-09)
+
+## 🐛 Bug Fixes
+
+- [`d44afa3`](https://github.com/lengors/protoscout-schemas/commit/d44afa3) Registers new working version
+
 # [v2.0.0](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v2.0.0) (2025-06-09)
 
 ## 🐛 Bug Fixes
