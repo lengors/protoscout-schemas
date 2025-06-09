@@ -1,3 +1,13 @@
+# [v2.0.0-beta.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v2.0.0-beta.1) (2025-06-09)
+
+## 🐛 Bug Fixes
+
+- [`19839ae`](https://github.com/lengors/protoscout-schemas/commit/19839ae) Extract scraper specification stock array
+
+## 💥 Breaking Changes
+
+- [`a224ffb`](https://github.com/lengors/protoscout-schemas/commit/a224ffb) Replace JSON schemas with zod schemas
+
 # [v2.0.0-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v2.0.0-alpha.1) (2025-06-09)
 
 ## 🐛 Bug Fixes
