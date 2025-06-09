@@ -1,3 +1,9 @@
+# [v2.1.0](https://github.com/lengors/protoscout-schemas/compare/v2.0.1...v2.1.0) (2025-06-09)
+
+## ✨ New Features
+
+- [`16534d1`](https://github.com/lengors/protoscout-schemas/commit/16534d1) Force bump minor version
+
 # [v2.0.1](https://github.com/lengors/protoscout-schemas/compare/v2.0.0...v2.0.1) (2025-06-09)
 
 ## 🐛 Bug Fixes
