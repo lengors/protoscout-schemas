@@ -1,0 +1,6 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "build": "ts-node src/main/ts/index.ts"
+  }
+}

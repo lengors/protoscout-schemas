@@ -1,27 +1,22 @@
 {
-  "name": "protoscout-schemas",
-  "description": "Project containg schemas for ProtoScout, the protocol used by WebScout",
   "scripts": {
-    "lint": "ajv compile --strict=false -s ./src/**/*.yml"
+    "lint": "eslint",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lengors/protoscout-schemas.git"
-  },
-  "keywords": [
-    "protoscout",
+  "workspaces": [
     "schemas",
-    "protoscout-schemas",
-    "webscout"
+    "generator"
   ],
-  "author": "lengors",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/lengors/protoscout-schemas/issues"
-  },
-  "homepage": "https://github.com/lengors/protoscout-schemas#readme",
   "devDependencies": {
-    "ajv-cli": "^5.0.0",
-    "prettier": "^3.4.1"
+    "@eslint/compat": "^1.2.9",
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1"
   }
 }

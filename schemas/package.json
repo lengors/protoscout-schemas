@@ -1,0 +1,58 @@
+{
+  "name": "@lengors/protoscout-schemas",
+  "version": "2.0.0-beta.1",
+  "description": "Project containing schemas for ProtoScout, the protocol used by WebScout",
+  "keywords": [
+    "protoscout",
+    "schemas",
+    "protoscout-schemas",
+    "webscout"
+  ],
+  "homepage": "https://github.com/lengors/protoscout-schemas#readme",
+  "bugs": {
+    "url": "https://github.com/lengors/protoscout-schemas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengors/protoscout-schemas.git"
+  },
+  "license": "Apache-2.0",
+  "author": "lengors",
+  "type": "commonjs",
+  "exports": {
+    "./scrapers": {
+      "require": "./dist/scrapers/index.js",
+      "default": "./dist/scrapers/index.js",
+      "node": "./dist/scrapers/index.js",
+      "import": "./dist/scrapers/index.js",
+      "types": "./dist/scrapers/index.d.ts"
+    },
+    "./scrapers/specifications": {
+      "require": "./dist/scrapers/specifications/index.js",
+      "default": "./dist/scrapers/specifications/index.js",
+      "node": "./dist/scrapers/specifications/index.js",
+      "import": "./dist/scrapers/specifications/index.js",
+      "types": "./dist/scrapers/specifications/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch",
+    "test:coverage": "nyc npm run test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0",
+    "nyc": "^17.1.0"
+  },
+  "dependencies": {
+    "zod": "^3.25.49"
+  }
+}

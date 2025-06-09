@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.build.json",
+  "compilerOptions": {
+    "rootDir": "./src/main/ts" /* Specify the root folder within your source files. */,
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */
+  },
+  "include": ["src/main/ts"]
+}
