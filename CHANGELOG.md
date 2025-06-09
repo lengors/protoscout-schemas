@@ -1,3 +1,35 @@
+# [v2.0.0-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v2.0.0-alpha.1) (2025-06-09)
+
+## 🐛 Bug Fixes
+
+- [`19839ae`](https://github.com/lengors/protoscout-schemas/commit/19839ae) Extract scraper specification stock array
+
+## 💥 Breaking Changes
+
+- [`a224ffb`](https://github.com/lengors/protoscout-schemas/commit/a224ffb) Replace JSON schemas with zod schemas
+
+# [v2.0.0-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.1-dev.1...v2.0.0-dev.1) (2025-06-08)
+
+## 💥 Breaking Changes
+
+- [`a224ffb`](https://github.com/lengors/protoscout-schemas/commit/a224ffb) Replace JSON schemas with zod schemas
+
+# [v1.1.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v1.1.0...v1.1.1-dev.1) (2025-05-18)
+
+## 🐛 Bug Fixes
+
+- [`19839ae`](https://github.com/lengors/protoscout-schemas/commit/19839ae) Extract scraper specification stock array
+
+# [v1.1.0](https://github.com/lengors/protoscout-schemas/compare/v1.0.2...v1.1.0) (2025-05-18)
+
+## ✨ New Features
+
+- [`f44bb41`](https://github.com/lengors/protoscout-schemas/commit/f44bb41) Add scraper response schema
+
+## 🐛 Bug Fixes
+
+- [`69b7873`](https://github.com/lengors/protoscout-schemas/commit/69b7873) Replace &#x60;oneOf&#x60; with &#x60;anyOf&#x60;
+
 # [v1.1.0-beta.1](https://github.com/lengors/protoscout-schemas/compare/v1.0.2...v1.1.0-beta.1) (2025-05-18)
 
 ## ✨ New Features
