@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperSpecificationExpression } from "./scraper-specification-expression";
 import { ScraperSpecificationReturnBrand } from "./scraper-specification-return-brand";
 import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail";

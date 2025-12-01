@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperResponseResultQuantity } from "./scraper-response-result-quantity";
 import { ScraperResponseResultDateTime } from "./scraper-response-result-date-time";
 
