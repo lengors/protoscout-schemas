@@ -230,6 +230,7 @@ fabric.properties
 src/
 .mocharc.json
 .nycrc.json
+.c8rc.json
 .prettierignore
 .prettierrc
 tsconfig.json

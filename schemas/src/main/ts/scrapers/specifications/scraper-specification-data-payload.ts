@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperSpecificationPayloadMap } from "./scraper-specification-payload-map";
 
 /**
