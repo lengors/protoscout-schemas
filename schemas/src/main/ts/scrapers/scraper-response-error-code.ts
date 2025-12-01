@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 
 /**
  * Represents error codes for scraper responses.

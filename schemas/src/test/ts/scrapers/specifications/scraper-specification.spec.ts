@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
-import { ScraperSpecification } from "../../../../main/ts/scrapers/specifications/scraper-specification";
+import { ScraperSpecification } from "../../../../main/ts/scrapers/specifications";
 
 describe("ScraperSpecification", () => {
   it("should create a valid minimal ScraperSpecification", () => {

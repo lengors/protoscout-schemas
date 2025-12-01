@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperResponseResultQuantityModifier } from "./scraper-response-result-quantity-modifier";
 
 /**

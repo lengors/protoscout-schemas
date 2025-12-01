@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 
 /**
  * Represents a request HTTP method used by a scraper.

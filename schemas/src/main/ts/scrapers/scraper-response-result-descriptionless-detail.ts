@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 
 /**
  * Represents the detail data associated with a scrapped result without description.
