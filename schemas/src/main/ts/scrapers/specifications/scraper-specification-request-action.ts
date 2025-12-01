@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperSpecificationMap } from "./scraper-specification-map";
 import { ScraperSpecificationRequest } from "./scraper-specification-request";
 

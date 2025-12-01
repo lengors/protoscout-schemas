@@ -1,3 +1,21 @@
+# [v2.1.1-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.0...v2.1.1-beta.1) (2025-12-01)
+
+## 🐛 Bug Fixes
+
+- [`75468df`](https://github.com/lengors/protoscout-schemas/commit/75468df) Fix support for node 22 and 24
+
+# [v2.1.1-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.0...v2.1.1-alpha.1) (2025-12-01)
+
+## 🐛 Bug Fixes
+
+- [`75468df`](https://github.com/lengors/protoscout-schemas/commit/75468df) Fix support for node 22 and 24
+
+# [v2.1.1-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.0...v2.1.1-dev.1) (2025-12-01)
+
+## 🐛 Bug Fixes
+
+- [`75468df`](https://github.com/lengors/protoscout-schemas/commit/75468df) Fix support for node 22 and 24
+
 # [v2.1.0](https://github.com/lengors/protoscout-schemas/compare/v2.0.1...v2.1.0) (2025-06-09)
 
 ## ✨ New Features

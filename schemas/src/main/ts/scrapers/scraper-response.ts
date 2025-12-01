@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperResponseError } from "./scraper-response-error";
 import { ScraperResponseResult } from "./scraper-response-result";
 

@@ -1,6 +1,6 @@
 {
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "build": "ts-node src/main/ts/index.ts"
+    "build": "tsx src/main/ts/index.ts"
   }
 }
