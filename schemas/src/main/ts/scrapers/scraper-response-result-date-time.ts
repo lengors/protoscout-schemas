@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperResponseResultDateTimeInstant } from "./scraper-response-result-date-time-instant";
 import { ScraperResponseResultDateTimeRange } from "./scraper-response-result-date-time-range";
 

@@ -1,4 +1,4 @@
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification";
 import { ScraperSpecificationGates } from "./scraper-specification-gates";
 import { ScraperSpecificationFlatAction } from "./scraper-specification-flat-action";

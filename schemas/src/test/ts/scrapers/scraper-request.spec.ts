@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
-import { ScraperRequest } from "../../../main/ts/scrapers/scraper-request";
+import { ScraperRequest } from "../../../main/ts/scrapers";
 
 describe("ScraperRequest", () => {
   it("should create a valid ScraperRequest", () => {

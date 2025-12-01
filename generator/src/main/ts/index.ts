@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs/promises";
 
-import { z } from "zod/v4-mini";
+import { z } from "zod/mini";
 import { fileURLToPath } from "url";
 
 import "@lengors/protoscout-schemas/scrapers";
