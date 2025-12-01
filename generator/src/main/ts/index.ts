@@ -2,9 +2,13 @@ import path from "path";
 import fs from "fs/promises";
 
 import { z } from "zod/v4-mini";
+import { fileURLToPath } from "url";
 
 import "@lengors/protoscout-schemas/scrapers";
 import "@lengors/protoscout-schemas/scrapers/specifications";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
@@ -15,8 +19,7 @@ async function main() {
     uri: (id) => path.basename(id),
     override: (ctx) => {
       if (
-        ctx.jsonSchema.allOf !== undefined &&
-        ctx.jsonSchema.allOf.length === 1 &&
+        ctx.jsonSchema.allOf?.length === 1 &&
         ctx.jsonSchema.allOf[0]?.$ref !== undefined
       ) {
         // If there's only one allOf and it references another schema, we can simplify it

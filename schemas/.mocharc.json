@@ -1,8 +1,8 @@
 {
-  "require": "ts-node/register",
+  "node-option": ["import=tsx/esm"],
   "extensions": ["ts"],
   "watch-files": ["src/main/ts/**/*.ts"],
   "spec": "src/test/ts/**/*.spec.ts",
-  "parallel": true,
+  "parallel": false,
   "timeout": 5000
 }
