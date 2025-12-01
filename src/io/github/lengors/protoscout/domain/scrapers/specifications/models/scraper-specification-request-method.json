@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-request-method.json",
   "type": "string",
   "enum": [
     "get",

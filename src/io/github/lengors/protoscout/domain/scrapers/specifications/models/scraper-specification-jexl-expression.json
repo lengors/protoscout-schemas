@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-jexl-expression.json",
   "readOnly": true,
   "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-jexl-expression.json",
   "title": "Scraper specification JEXL expression.",

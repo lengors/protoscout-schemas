@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-response-error.json",
   "readOnly": true,
   "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-error.json",
   "title": "Scraper response error.",

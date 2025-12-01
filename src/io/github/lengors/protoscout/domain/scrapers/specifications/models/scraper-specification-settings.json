@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-settings.json",
   "readOnly": true,
   "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-settings.json",
   "title": "Scraper specification's settings.",

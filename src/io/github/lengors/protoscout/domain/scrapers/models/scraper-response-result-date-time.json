@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-response-result-date-time.json",
   "anyOf": [
     {
       "$ref": "scraper-response-result-date-time-instant.json"
