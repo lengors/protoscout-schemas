@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationMap } from "./scraper-specification-map";
-import { ScraperSpecificationRequest } from "./scraper-specification-request";
+import { ScraperSpecificationMap } from "./scraper-specification-map.js";
+import { ScraperSpecificationRequest } from "./scraper-specification-request.js";
 
 /**
  * Represents a web request action to be used by scraper's handler.

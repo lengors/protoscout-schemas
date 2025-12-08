@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultQuantity } from "./scraper-response-result-quantity";
-import { ScraperResponseResultDateTime } from "./scraper-response-result-date-time";
+import { ScraperResponseResultQuantity } from "./scraper-response-result-quantity.js";
+import { ScraperResponseResultDateTime } from "./scraper-response-result-date-time.js";
 
 /**
  * Represents the stock data associated with the result of a scraper.

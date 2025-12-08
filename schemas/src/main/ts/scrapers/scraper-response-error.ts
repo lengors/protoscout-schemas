@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperResponseErrorCode } from "./scraper-response-error-code";
+import { ScraperResponseErrorCode } from "./scraper-response-error-code.js";
 
 /**
  * Represents a response with error data associated with a failure in scraper.

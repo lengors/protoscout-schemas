@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperResponseError } from "./scraper-response-error";
-import { ScraperResponseResult } from "./scraper-response-result";
+import { ScraperResponseError } from "./scraper-response-error.js";
+import { ScraperResponseResult } from "./scraper-response-result.js";
 
 /**
  * Represents the response from a scraper, which can either be an error or a successful result.

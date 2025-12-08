@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification";
-import { ScraperSpecificationReturnExtractStock } from "./scraper-specification-return-extract-stock";
+import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification.js";
+import { ScraperSpecificationReturnExtractStock } from "./scraper-specification-return-extract-stock.js";
 
 /**
  * Represents a stock data specification to be returned by a scraper, including flattening of the stock data.

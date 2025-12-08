@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultQuantityModifier } from "./scraper-response-result-quantity-modifier";
+import { ScraperResponseResultQuantityModifier } from "./scraper-response-result-quantity-modifier.js";
 
 /**
  * Represents a quantity for the result of a scraper.

@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationSettings } from "./scraper-specification-settings";
-import { ScraperSpecificationHandler } from "./scraper-specification-handler";
+import { ScraperSpecificationSettings } from "./scraper-specification-settings.js";
+import { ScraperSpecificationHandler } from "./scraper-specification-handler.js";
 
 /**
  * Represents a scraper specification that defines how a scraper should behave.

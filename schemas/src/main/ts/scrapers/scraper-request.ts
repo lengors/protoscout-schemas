@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperProfile } from "./scraper-profile";
+import { ScraperProfile } from "./scraper-profile.js";
 
 /**
  * Represents a request to scrapers for a specific search term.
