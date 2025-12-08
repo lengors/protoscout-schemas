@@ -1,3 +1,9 @@
+# [v2.1.2-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.1...v2.1.2-alpha.1) (2025-12-08)
+
+## 🐛 Bug Fixes
+
+- [`f0861a6`](https://github.com/lengors/protoscout-schemas/commit/f0861a6) Fix ESM support by update &#x27;module&#x60; and &#x60;moduleResolution&#x60; to &#x60;NodeNext&#x60;
+
 # [v2.1.2-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.1...v2.1.2-dev.1) (2025-12-08)
 
 ## 🐛 Bug Fixes
