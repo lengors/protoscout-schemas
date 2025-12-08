@@ -1,7 +1,7 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationDefaults } from "./scraper-specification-defaults";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
-import { ScraperSpecificationRequirement } from "./scraper-specification-requirement";
+import { ScraperSpecificationDefaults } from "./scraper-specification-defaults.js";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
+import { ScraperSpecificationRequirement } from "./scraper-specification-requirement.js";
 
 /**
  * Represents the settings for a scraper specification.

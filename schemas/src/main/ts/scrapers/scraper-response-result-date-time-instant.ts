@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultDateTimeInstantGrain } from "./scraper-response-result-date-time-instant-grain";
+import { ScraperResponseResultDateTimeInstantGrain } from "./scraper-response-result-date-time-instant-grain.js";
 
 /**
  * Represents the instant of the delivery date-time associated with a scrapped result.

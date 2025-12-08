@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultDateTimeInstant } from "./scraper-response-result-date-time-instant";
-import { ScraperResponseResultDateTimeRange } from "./scraper-response-result-date-time-range";
+import { ScraperResponseResultDateTimeInstant } from "./scraper-response-result-date-time-instant.js";
+import { ScraperResponseResultDateTimeRange } from "./scraper-response-result-date-time-range.js";
 
 /**
  * Represents the delivery date-time associated with a scrapped result.

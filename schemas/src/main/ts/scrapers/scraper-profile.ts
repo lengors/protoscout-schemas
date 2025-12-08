@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperInputs } from "./scraper-inputs";
+import { ScraperInputs } from "./scraper-inputs.js";
 
 /**
  * Represents a scraper profile that associates a scraper's specification name with its inputs.

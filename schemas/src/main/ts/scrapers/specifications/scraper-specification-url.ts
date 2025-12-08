@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
-import { ScraperSpecificationUrlParameter } from "./scraper-specification-url-parameter";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
+import { ScraperSpecificationUrlParameter } from "./scraper-specification-url-parameter.js";
 
 /**
  * Represents a URL specification for a scraper.

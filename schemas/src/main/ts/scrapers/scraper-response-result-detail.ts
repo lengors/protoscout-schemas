@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultDescriptionlessDetail } from "./scraper-response-result-descriptionless-detail";
-import { ScraperResponseResultDescriptiveDetail } from "./scraper-response-result-descriptive-detail";
+import { ScraperResponseResultDescriptionlessDetail } from "./scraper-response-result-descriptionless-detail.js";
+import { ScraperResponseResultDescriptiveDetail } from "./scraper-response-result-descriptive-detail.js";
 
 /**
  * Represents the detail data associated with a scrapped result.

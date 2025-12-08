@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationMap } from "./scraper-specification-map";
+import { ScraperSpecificationMap } from "./scraper-specification-map.js";
 
 /**
  * Represents a mapping action performed by a scraper specification handler.

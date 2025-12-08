@@ -1,10 +1,10 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification";
-import { ScraperSpecificationGates } from "./scraper-specification-gates";
-import { ScraperSpecificationFlatAction } from "./scraper-specification-flat-action";
-import { ScraperSpecificationMapAction } from "./scraper-specification-map-action";
-import { ScraperSpecificationRequestAction } from "./scraper-specification-request-action";
-import { ScraperSpecificationReturnAction } from "./scraper-specification-return-action";
+import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification.js";
+import { ScraperSpecificationGates } from "./scraper-specification-gates.js";
+import { ScraperSpecificationFlatAction } from "./scraper-specification-flat-action.js";
+import { ScraperSpecificationMapAction } from "./scraper-specification-map-action.js";
+import { ScraperSpecificationRequestAction } from "./scraper-specification-request-action.js";
+import { ScraperSpecificationReturnAction } from "./scraper-specification-return-action.js";
 
 /**
  * Represents a handler used by scraper for handling current context.

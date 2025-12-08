@@ -1,6 +1,6 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationReturnDescriptiveDetail } from "./scraper-specification-return-descriptive-detail";
-import { ScraperSpecificationReturnDescriptionlessDetail } from "./scraper-specification-return-descriptionless-detail";
+import { ScraperSpecificationReturnDescriptiveDetail } from "./scraper-specification-return-descriptive-detail.js";
+import { ScraperSpecificationReturnDescriptionlessDetail } from "./scraper-specification-return-descriptionless-detail.js";
 
 /**
  * Represents a detail data specification to be returned by a scraper.

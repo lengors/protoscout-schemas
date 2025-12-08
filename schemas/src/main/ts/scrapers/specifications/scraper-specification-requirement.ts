@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationRequirementType } from "./scraper-specification-requirement-type";
+import { ScraperSpecificationRequirementType } from "./scraper-specification-requirement-type.js";
 
 /**
  * Represents a requirement for a scraper's specification.
