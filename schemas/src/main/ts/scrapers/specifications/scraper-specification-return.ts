@@ -1,9 +1,9 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
-import { ScraperSpecificationReturnBrand } from "./scraper-specification-return-brand";
-import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail";
-import { ScraperSpecificationReturnExtractStock } from "./scraper-specification-return-extract-stock";
-import { ScraperSpecificationReturnFlatStock } from "./scraper-specification-return-flat-stock";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
+import { ScraperSpecificationReturnBrand } from "./scraper-specification-return-brand.js";
+import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail.js";
+import { ScraperSpecificationReturnExtractStock } from "./scraper-specification-return-extract-stock.js";
+import { ScraperSpecificationReturnFlatStock } from "./scraper-specification-return-flat-stock.js";
 
 /**
  * Represents a return data specification to be returned by a scraper.

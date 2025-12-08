@@ -1,10 +1,10 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationUrl } from "./scraper-specification-url";
-import { ScraperSpecificationRequestMethod } from "./scraper-specification-request-method";
-import { ScraperSpecificationHeaderMap } from "./scraper-specification-header-map";
-import { ScraperSpecificationDataPayload } from "./scraper-specification-data-payload";
-import { ScraperSpecificationJsonPayload } from "./scraper-specification-json-payload";
-import { ScraperSpecificationRequestParser } from "./scraper-specification-request-parser";
+import { ScraperSpecificationUrl } from "./scraper-specification-url.js";
+import { ScraperSpecificationRequestMethod } from "./scraper-specification-request-method.js";
+import { ScraperSpecificationHeaderMap } from "./scraper-specification-header-map.js";
+import { ScraperSpecificationDataPayload } from "./scraper-specification-data-payload.js";
+import { ScraperSpecificationJsonPayload } from "./scraper-specification-json-payload.js";
+import { ScraperSpecificationRequestParser } from "./scraper-specification-request-parser.js";
 
 /**
  * Represents a web request specification to be used by scraper's handler.

@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationReturn } from "./scraper-specification-return";
+import { ScraperSpecificationReturn } from "./scraper-specification-return.js";
 
 /**
  * Represents a returning action performed by a scraper specification handler.

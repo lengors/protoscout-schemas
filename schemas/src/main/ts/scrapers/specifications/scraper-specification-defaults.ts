@@ -1,7 +1,7 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationUrl } from "./scraper-specification-url";
-import { ScraperSpecificationHeaderMap } from "./scraper-specification-header-map";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
+import { ScraperSpecificationUrl } from "./scraper-specification-url.js";
+import { ScraperSpecificationHeaderMap } from "./scraper-specification-header-map.js";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
 
 /**
  * Represents the default values to inject into the scraper context.
