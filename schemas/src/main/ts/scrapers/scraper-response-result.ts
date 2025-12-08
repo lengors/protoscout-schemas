@@ -1,10 +1,10 @@
 import { z } from "zod/mini";
-import { ScraperResponseResultBrand } from "./scraper-response-result-brand";
-import { ScraperResponseResultPrice } from "./scraper-response-result-price";
-import { ScraperResponseResultStock } from "./scraper-response-result-stock";
-import { ScraperResponseResultGrading } from "./scraper-response-result-grading";
-import { ScraperResponseResultNoiseLevel } from "./scraper-response-result-noise-level";
-import { ScraperResponseResultDetail } from "./scraper-response-result-detail";
+import { ScraperResponseResultBrand } from "./scraper-response-result-brand.js";
+import { ScraperResponseResultPrice } from "./scraper-response-result-price.js";
+import { ScraperResponseResultStock } from "./scraper-response-result-stock.js";
+import { ScraperResponseResultGrading } from "./scraper-response-result-grading.js";
+import { ScraperResponseResultNoiseLevel } from "./scraper-response-result-noise-level.js";
+import { ScraperResponseResultDetail } from "./scraper-response-result-detail.js";
 
 /**
  * Represents the result of a scraper response.

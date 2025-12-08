@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
 
 /**
  * Represents the gates for a scraper specification handler.

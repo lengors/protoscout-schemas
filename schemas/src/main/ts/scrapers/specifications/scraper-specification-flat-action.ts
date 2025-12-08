@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification";
+import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification.js";
 
 /**
  * Represents an action that flattens the result of a scraper specification.

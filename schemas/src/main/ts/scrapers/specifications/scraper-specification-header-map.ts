@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationExpression } from "./scraper-specification-expression";
+import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
 
 /**
  * Represents a map of headers to be used by a scraper's web request.

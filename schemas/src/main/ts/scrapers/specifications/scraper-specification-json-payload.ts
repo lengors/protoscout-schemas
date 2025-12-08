@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationPayloadMap } from "./scraper-specification-payload-map";
+import { ScraperSpecificationPayloadMap } from "./scraper-specification-payload-map.js";
 
 /**
  * Represents a json payload to be used by scraper's web request.
