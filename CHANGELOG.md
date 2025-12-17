@@ -1,3 +1,9 @@
+# [v2.1.3-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.2...v2.1.3-dev.1) (2025-12-17)
+
+## 🐛 Bug Fixes
+
+- [`54b8442`](https://github.com/lengors/protoscout-schemas/commit/54b8442) Rename &#x60;grain&#x60; property to &#x60;to&#x60; on &#x60;ScraperResponseResultDateTimeRange&#x60;
+
 # [v2.1.2](https://github.com/lengors/protoscout-schemas/compare/v2.1.1...v2.1.2) (2025-12-08)
 
 ## 🐛 Bug Fixes
