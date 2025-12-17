@@ -15,12 +15,12 @@
     "from": {
       "$ref": "scraper-response-result-date-time-instant.json"
     },
-    "grain": {
+    "to": {
       "$ref": "scraper-response-result-date-time-instant.json"
     }
   },
   "required": [
     "from",
-    "grain"
+    "to"
   ]
 }
