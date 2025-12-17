@@ -10,7 +10,7 @@ export const ScraperResponseResultDateTimeRange = z
   .readonly(
     z.object({
       from: ScraperResponseResultDateTimeInstant,
-      grain: ScraperResponseResultDateTimeInstant,
+      to: ScraperResponseResultDateTimeInstant,
     }),
   )
   .register(z.globalRegistry, {
