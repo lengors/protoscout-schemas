@@ -8,7 +8,7 @@ import { z } from "zod/mini";
 export const ScraperResponseResultPrice = z
   .readonly(
     z.object({
-      amount: z.string().register(z.globalRegistry, {
+      amount: z.number().register(z.globalRegistry, {
         title: "Price amount.",
         description:
           "Numerical amount for price associated with scrapped result.",
