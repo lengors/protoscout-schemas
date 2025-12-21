@@ -30,7 +30,7 @@ describe("ScraperResponse", () => {
         description: "Test Brand",
       },
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
     });
@@ -53,13 +53,13 @@ describe("ScraperResponse", () => {
             modifier: "exact",
           },
           ["delivering_on"]: {
-            value: "2023-10-01T00:00:00Z",
+            value: "2023-10-01T00:00:00+00:00",
             grain: "day",
           },
         },
       ],
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
       image: "https://example.com/image.jpg",
@@ -128,7 +128,7 @@ describe("ScraperResponse", () => {
       description: "Test product description",
       brand: "invalid_brand", // Should be object with description
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
     });

@@ -1,3 +1,27 @@
+# [v2.1.4-dev.2](https://github.com/lengors/protoscout-schemas/compare/v2.1.4-dev.1...v2.1.4-dev.2) (2025-12-21)
+
+## 🐛 Bug Fixes
+
+- [`dc188f2`](https://github.com/lengors/protoscout-schemas/commit/dc188f2) Make price amounts numerical
+
+# [v2.1.4-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.3...v2.1.4-dev.1) (2025-12-21)
+
+## 🐛 Bug Fixes
+
+- [`bf8536a`](https://github.com/lengors/protoscout-schemas/commit/bf8536a) Support for offsets on response date-times
+
+# [v2.1.3](https://github.com/lengors/protoscout-schemas/compare/v2.1.2...v2.1.3) (2025-12-17)
+
+## 🐛 Bug Fixes
+
+- [`54b8442`](https://github.com/lengors/protoscout-schemas/commit/54b8442) Rename &#x60;grain&#x60; property to &#x60;to&#x60; on &#x60;ScraperResponseResultDateTimeRange&#x60;
+
+# [v2.1.3-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.2...v2.1.3-beta.1) (2025-12-17)
+
+## 🐛 Bug Fixes
+
+- [`54b8442`](https://github.com/lengors/protoscout-schemas/commit/54b8442) Rename &#x60;grain&#x60; property to &#x60;to&#x60; on &#x60;ScraperResponseResultDateTimeRange&#x60;
+
 # [v2.1.3-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.2...v2.1.3-alpha.1) (2025-12-17)
 
 ## 🐛 Bug Fixes
