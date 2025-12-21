@@ -1,3 +1,9 @@
+# [v2.1.4-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.3...v2.1.4-dev.1) (2025-12-21)
+
+## 🐛 Bug Fixes
+
+- [`bf8536a`](https://github.com/lengors/protoscout-schemas/commit/bf8536a) Support for offsets on response date-times
+
 # [v2.1.3](https://github.com/lengors/protoscout-schemas/compare/v2.1.2...v2.1.3) (2025-12-17)
 
 ## 🐛 Bug Fixes
