@@ -13,7 +13,7 @@
   "type": "object",
   "properties": {
     "amount": {
-      "type": "string",
+      "type": "number",
       "title": "Price amount.",
       "description": "Numerical amount for price associated with scrapped result."
     },
