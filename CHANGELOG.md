@@ -1,3 +1,10 @@
+# [v2.1.4-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.3...v2.1.4-alpha.1) (2025-12-21)
+
+## 🐛 Bug Fixes
+
+- [`bf8536a`](https://github.com/lengors/protoscout-schemas/commit/bf8536a) Support for offsets on response date-times
+- [`dc188f2`](https://github.com/lengors/protoscout-schemas/commit/dc188f2) Make price amounts numerical
+
 # [v2.1.4-dev.2](https://github.com/lengors/protoscout-schemas/compare/v2.1.4-dev.1...v2.1.4-dev.2) (2025-12-21)
 
 ## 🐛 Bug Fixes
