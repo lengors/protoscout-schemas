@@ -30,7 +30,7 @@ describe("ScraperResponse", () => {
         description: "Test Brand",
       },
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
     });
@@ -59,7 +59,7 @@ describe("ScraperResponse", () => {
         },
       ],
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
       image: "https://example.com/image.jpg",
@@ -128,7 +128,7 @@ describe("ScraperResponse", () => {
       description: "Test product description",
       brand: "invalid_brand", // Should be object with description
       price: {
-        amount: "99.99",
+        amount: 99.99,
         unit: "USD",
       },
     });
