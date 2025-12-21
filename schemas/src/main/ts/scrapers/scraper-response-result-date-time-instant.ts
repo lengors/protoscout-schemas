@@ -9,7 +9,7 @@ import { ScraperResponseResultDateTimeInstantGrain } from "./scraper-response-re
 export const ScraperResponseResultDateTimeInstant = z
   .readonly(
     z.object({
-      value: z.iso.datetime().register(z.globalRegistry, {
+      value: z.iso.datetime({ offset: true }).register(z.globalRegistry, {
         title: "Result date-time instant value.",
         description:
           "Value of date-time instant associated with scrapped result.",

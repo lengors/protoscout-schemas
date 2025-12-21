@@ -53,7 +53,7 @@ describe("ScraperResponse", () => {
             modifier: "exact",
           },
           ["delivering_on"]: {
-            value: "2023-10-01T00:00:00Z",
+            value: "2023-10-01T00:00:00+00:00",
             grain: "day",
           },
         },
