@@ -75,19 +75,9 @@ export const ScraperResponseResult = z.pipe(
       ],
       additionalProperties: false,
     }),
-  z.transform((data) => ({
-    url: data.url,
-    specificationName: data.specification_name,
-    description: data.description,
-    brand: data.brand,
-    price: data.price,
-    image: data.image,
-    stocks: data.stocks,
-    grip: data.grip,
-    noise: data.noise,
-    decibels: data.decibels,
-    consumption: data.consumption,
-    details: data.details,
+  z.transform(({ specification_name: specificationName, ...data }) => ({
+    specificationName,
+    ...data,
   })),
 );
 
