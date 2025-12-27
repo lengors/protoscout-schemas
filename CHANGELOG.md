@@ -1,3 +1,9 @@
+# [v2.1.5](https://github.com/lengors/protoscout-schemas/compare/v2.1.4...v2.1.5) (2025-12-27)
+
+## 🐛 Bug Fixes
+
+- [`70eb016`](https://github.com/lengors/protoscout-schemas/commit/70eb016) Fix writing format for scraper errors
+
 # [v2.1.5-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.4...v2.1.5-beta.1) (2025-12-27)
 
 ## 🐛 Bug Fixes
