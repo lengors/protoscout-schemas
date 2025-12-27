@@ -1,6 +1,6 @@
 {
   "name": "@lengors/protoscout-schemas",
-  "version": "2.1.4-beta.1",
+  "version": "2.1.5-alpha.1",
   "description": "Project containing schemas for ProtoScout, the protocol used by WebScout",
   "keywords": [
     "protoscout",

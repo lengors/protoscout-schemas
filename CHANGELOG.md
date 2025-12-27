@@ -1,3 +1,22 @@
+# [v2.1.5-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.4...v2.1.5-alpha.1) (2025-12-27)
+
+## 🐛 Bug Fixes
+
+- [`70eb016`](https://github.com/lengors/protoscout-schemas/commit/70eb016) Fix writing format for scraper errors
+
+# [v2.1.5-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.4...v2.1.5-dev.1) (2025-12-22)
+
+## 🐛 Bug Fixes
+
+- [`70eb016`](https://github.com/lengors/protoscout-schemas/commit/70eb016) Fix writing format for scraper errors
+
+# [v2.1.4](https://github.com/lengors/protoscout-schemas/compare/v2.1.3...v2.1.4) (2025-12-21)
+
+## 🐛 Bug Fixes
+
+- [`bf8536a`](https://github.com/lengors/protoscout-schemas/commit/bf8536a) Support for offsets on response date-times
+- [`dc188f2`](https://github.com/lengors/protoscout-schemas/commit/dc188f2) Make price amounts numerical
+
 # [v2.1.4-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.3...v2.1.4-beta.1) (2025-12-21)
 
 ## 🐛 Bug Fixes
