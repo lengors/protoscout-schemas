@@ -21,7 +21,7 @@ export const ScraperSpecificationReturnDescriptionlessDetail = z
     javaType:
       "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptionlessDetail",
     javaInterfaces: [
-      "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail",
+      "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractDetail",
     ],
     additionalProperties: false,
   });

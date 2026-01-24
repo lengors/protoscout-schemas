@@ -128,6 +128,21 @@ describe("ScraperSpecification", () => {
                   description: "detail_description_expr",
                   image: "detail_image_expr",
                 },
+                {
+                  flattens: [
+                    {
+                      jexl: "flatten_detail_bar_expr",
+                    },
+                    {
+                      jexl: "flatten_detail_foo_expr",
+                    },
+                  ],
+                  extracts: {
+                    name: "extract_detail_name_expr",
+                    description: "extract_detail_description_expr",
+                    image: "extract_detail_image_expr",
+                  },
+                },
               ],
             },
           },
