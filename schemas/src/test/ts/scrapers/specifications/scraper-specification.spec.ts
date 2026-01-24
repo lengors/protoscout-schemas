@@ -112,9 +112,14 @@ describe("ScraperSpecification", () => {
                     jexl: "flatten_stock_expr",
                   },
                   extracts: {
-                    availability: "extract_availability_expr",
-                    storage: "extract_storage_expr",
-                    ["delivering_on"]: "extract_delivery_expr",
+                    flattens: {
+                      jexl: "flatten_inner_stock_expr",
+                    },
+                    extracts: {
+                      availability: "extract_availability_expr",
+                      storage: "extract_storage_expr",
+                      ["delivering_on"]: "extract_delivery_expr",
+                    },
                   },
                 },
               ],
