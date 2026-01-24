@@ -2,8 +2,7 @@ import { z } from "zod/mini";
 import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
 import { ScraperSpecificationReturnBrand } from "./scraper-specification-return-brand.js";
 import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail.js";
-import { ScraperSpecificationReturnExtractStock } from "./scraper-specification-return-extract-stock.js";
-import { ScraperSpecificationReturnFlatStock } from "./scraper-specification-return-flat-stock.js";
+import { ScraperSpecificationReturnStock } from "./scraper-specification-return-stock.js";
 
 /**
  * Represents a return data specification to be returned by a scraper.
@@ -19,19 +18,7 @@ export const ScraperSpecificationReturn = z
       image: z.optional(ScraperSpecificationExpression),
       stocks: z.optional(
         z
-          .readonly(
-            z.array(
-              z
-                .union([
-                  ScraperSpecificationReturnExtractStock,
-                  ScraperSpecificationReturnFlatStock,
-                ])
-                .register(z.globalRegistry, {
-                  existingJavaType:
-                    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock",
-                }),
-            ),
-          )
+          .readonly(z.array(ScraperSpecificationReturnStock))
           .register(z.globalRegistry, {
             title: "Scraper return stock data list.",
             description: "List of stock data to be returned by scraper.",

@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl-specification.js";
+import { ScraperSpecificationFlat } from "./scraper-specification-flat.js";
 
 /**
  * Represents an action that flattens the result of a scraper specification.
@@ -9,7 +9,7 @@ import { ScraperSpecificationJexlExpression } from "./scraper-specification-jexl
 export const ScraperSpecificationFlatAction = z
   .readonly(
     z.object({
-      flattens: ScraperSpecificationJexlExpression,
+      flattens: ScraperSpecificationFlat,
     }),
   )
   .register(z.globalRegistry, {
