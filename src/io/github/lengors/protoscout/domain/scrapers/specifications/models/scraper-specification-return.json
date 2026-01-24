@@ -30,15 +30,7 @@
       "description": "List of stock data to be returned by scraper.",
       "type": "array",
       "items": {
-        "anyOf": [
-          {
-            "$ref": "scraper-specification-return-extract-stock.json"
-          },
-          {
-            "$ref": "scraper-specification-return-flat-stock.json"
-          }
-        ],
-        "existingJavaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock"
+        "$ref": "scraper-specification-return-stock.json"
       }
     },
     "grip": {

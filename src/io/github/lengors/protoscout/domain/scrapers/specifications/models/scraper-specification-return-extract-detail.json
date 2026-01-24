@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-return-extract-detail.json",
+  "anyOf": [
+    {
+      "$ref": "scraper-specification-return-descriptive-detail.json"
+    },
+    {
+      "$ref": "scraper-specification-return-descriptionless-detail.json"
+    }
+  ],
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-extract-detail.json",
+  "existingJavaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractDetail"
+}

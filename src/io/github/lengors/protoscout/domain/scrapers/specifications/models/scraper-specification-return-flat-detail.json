@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-return-flat-detail.json",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-flat-detail.json",
+  "title": "Scraper return detail flatting data.",
+  "description": "Flat detail data from expression that's to be returned by scraper.",
+  "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnFlatDetail",
+  "javaInterfaces": [
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail"
+  ],
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "flattens": {
+      "$ref": "scraper-specification-flat.json"
+    },
+    "extracts": {
+      "$ref": "scraper-specification-return-detail.json"
+    }
+  },
+  "required": [
+    "flattens",
+    "extracts"
+  ]
+}

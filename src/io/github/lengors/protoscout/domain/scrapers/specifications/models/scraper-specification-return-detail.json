@@ -3,10 +3,10 @@
   "$id": "scraper-specification-return-detail.json",
   "anyOf": [
     {
-      "$ref": "scraper-specification-return-descriptive-detail.json"
+      "$ref": "scraper-specification-return-extract-detail.json"
     },
     {
-      "$ref": "scraper-specification-return-descriptionless-detail.json"
+      "$ref": "scraper-specification-return-flat-detail.json"
     }
   ],
   "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-detail.json",

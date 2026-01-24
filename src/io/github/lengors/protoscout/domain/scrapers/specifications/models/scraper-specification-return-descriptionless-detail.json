@@ -7,7 +7,7 @@
   "description": "Descriptionless detail data to be returned by scraper.",
   "javaType": "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptionlessDetail",
   "javaInterfaces": [
-    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail"
+    "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractDetail"
   ],
   "additionalProperties": false,
   "type": "object",

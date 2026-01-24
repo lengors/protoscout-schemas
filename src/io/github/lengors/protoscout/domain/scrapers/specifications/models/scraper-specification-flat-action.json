@@ -13,7 +13,7 @@
   "type": "object",
   "properties": {
     "flattens": {
-      "$ref": "scraper-specification-jexl-expression.json"
+      "$ref": "scraper-specification-flat.json"
     }
   },
   "required": [

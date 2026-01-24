@@ -13,10 +13,10 @@
   "type": "object",
   "properties": {
     "flattens": {
-      "$ref": "scraper-specification-jexl-expression.json"
+      "$ref": "scraper-specification-flat.json"
     },
     "extracts": {
-      "$ref": "scraper-specification-return-extract-stock.json"
+      "$ref": "scraper-specification-return-stock.json"
     }
   },
   "required": [
