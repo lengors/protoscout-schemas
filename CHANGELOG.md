@@ -1,3 +1,11 @@
+# [v2.2.0-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.1.5...v2.2.0-dev.1) (2026-01-24)
+
+## ✨ New Features
+
+- [`8116e9f`](https://github.com/lengors/protoscout-schemas/commit/8116e9f) Defines a flattening expression for details
+- [`3855fba`](https://github.com/lengors/protoscout-schemas/commit/3855fba) Specifies an array of expressions in the flat action
+- [`4341192`](https://github.com/lengors/protoscout-schemas/commit/4341192) Performs recursive flattening with stocks
+
 # [v2.1.5](https://github.com/lengors/protoscout-schemas/compare/v2.1.4...v2.1.5) (2025-12-27)
 
 ## 🐛 Bug Fixes
