@@ -1,10 +1,10 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail.js";
 import { ScraperSpecificationFlat } from "./scraper-specification-flat.js";
+import { ScraperSpecificationReturnDetailArray } from "./scraper-specification-return-detail-array.js";
 
 export interface ScraperSpecificationReturnFlatDetail {
   readonly flattens: ScraperSpecificationFlat;
-  readonly extracts: ScraperSpecificationReturnDetail;
+  readonly extracts: ScraperSpecificationReturnDetailArray;
 }
 
 /**
@@ -17,7 +17,7 @@ export const ScraperSpecificationReturnFlatDetail: z.ZodMiniType<ScraperSpecific
     .readonly(
       z.object({
         flattens: ScraperSpecificationFlat,
-        extracts: z.lazy(() => ScraperSpecificationReturnDetail),
+        extracts: z.lazy(() => ScraperSpecificationReturnDetailArray),
       }),
     )
     .register(z.globalRegistry, {
