@@ -2,7 +2,7 @@ import { z } from "zod/mini";
 import { ScraperSpecificationExpression } from "./scraper-specification-expression.js";
 import { ScraperSpecificationReturnBrand } from "./scraper-specification-return-brand.js";
 import { ScraperSpecificationReturnDetail } from "./scraper-specification-return-detail.js";
-import { ScraperSpecificationReturnStock } from "./scraper-specification-return-stock.js";
+import { ScraperSpecificationReturnStockArray } from "./scraper-specification-return-stock-array.js";
 
 /**
  * Represents a return data specification to be returned by a scraper.
@@ -16,14 +16,7 @@ export const ScraperSpecificationReturn = z
       brand: ScraperSpecificationReturnBrand,
       price: ScraperSpecificationExpression,
       image: z.optional(ScraperSpecificationExpression),
-      stocks: z.optional(
-        z
-          .readonly(z.array(ScraperSpecificationReturnStock))
-          .register(z.globalRegistry, {
-            title: "Scraper return stock data list.",
-            description: "List of stock data to be returned by scraper.",
-          }),
-      ),
+      stocks: z.optional(ScraperSpecificationReturnStockArray),
       grip: z.optional(ScraperSpecificationExpression),
       noise: z.optional(ScraperSpecificationExpression),
       decibels: z.optional(ScraperSpecificationExpression),
