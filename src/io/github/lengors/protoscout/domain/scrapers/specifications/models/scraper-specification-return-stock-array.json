@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "scraper-specification-return-stock-array.json",
+  "readOnly": true,
+  "id": "io/github/lengors/protoscout/domain/scrapers/specifications/models/scraper-specification-return-stock-array.json",
+  "title": "Scraper return stock data list.",
+  "description": "List of stock data to be returned by scraper.",
+  "existingJavaType": "java.util.List<io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnStock>",
+  "type": "array",
+  "items": {
+    "$ref": "scraper-specification-return-stock.json"
+  }
+}

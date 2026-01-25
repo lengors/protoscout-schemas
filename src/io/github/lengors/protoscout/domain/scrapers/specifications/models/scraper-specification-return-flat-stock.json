@@ -16,7 +16,7 @@
       "$ref": "scraper-specification-flat.json"
     },
     "extracts": {
-      "$ref": "scraper-specification-return-stock.json"
+      "$ref": "scraper-specification-return-stock-array.json"
     }
   },
   "required": [

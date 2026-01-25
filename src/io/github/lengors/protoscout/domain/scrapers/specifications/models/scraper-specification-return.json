@@ -25,13 +25,7 @@
       "$ref": "scraper-specification-expression.json"
     },
     "stocks": {
-      "readOnly": true,
-      "title": "Scraper return stock data list.",
-      "description": "List of stock data to be returned by scraper.",
-      "type": "array",
-      "items": {
-        "$ref": "scraper-specification-return-stock.json"
-      }
+      "$ref": "scraper-specification-return-stock-array.json"
     },
     "grip": {
       "$ref": "scraper-specification-expression.json"
@@ -46,13 +40,7 @@
       "$ref": "scraper-specification-expression.json"
     },
     "details": {
-      "readOnly": true,
-      "title": "Scraper return detail data list.",
-      "description": "List of detail data to be returned by scraper.",
-      "type": "array",
-      "items": {
-        "$ref": "scraper-specification-return-detail.json"
-      }
+      "$ref": "scraper-specification-return-detail-array.json"
     }
   },
   "required": [
