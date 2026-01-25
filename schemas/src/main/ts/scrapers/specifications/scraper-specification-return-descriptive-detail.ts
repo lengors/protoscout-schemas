@@ -22,7 +22,7 @@ export const ScraperSpecificationReturnDescriptiveDetail = z
     javaType:
       "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDescriptiveDetail",
     javaInterfaces: [
-      "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnDetail",
+      "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationReturnExtractDetail",
     ],
     additionalProperties: false,
   });
