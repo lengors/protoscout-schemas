@@ -111,16 +111,20 @@ describe("ScraperSpecification", () => {
                   flattens: {
                     jexl: "flatten_stock_expr",
                   },
-                  extracts: {
-                    flattens: {
-                      jexl: "flatten_inner_stock_expr",
+                  extracts: [
+                    {
+                      flattens: {
+                        jexl: "flatten_inner_stock_expr",
+                      },
+                      extracts: [
+                        {
+                          availability: "extract_availability_expr",
+                          storage: "extract_storage_expr",
+                          ["delivering_on"]: "extract_delivery_expr",
+                        },
+                      ],
                     },
-                    extracts: {
-                      availability: "extract_availability_expr",
-                      storage: "extract_storage_expr",
-                      ["delivering_on"]: "extract_delivery_expr",
-                    },
-                  },
+                  ],
                 },
               ],
               grip: "grip_expr",
@@ -142,11 +146,13 @@ describe("ScraperSpecification", () => {
                       jexl: "flatten_detail_foo_expr",
                     },
                   ],
-                  extracts: {
-                    name: "extract_detail_name_expr",
-                    description: "extract_detail_description_expr",
-                    image: "extract_detail_image_expr",
-                  },
+                  extracts: [
+                    {
+                      name: "extract_detail_name_expr",
+                      description: "extract_detail_description_expr",
+                      image: "extract_detail_image_expr",
+                    },
+                  ],
                 },
               ],
             },
