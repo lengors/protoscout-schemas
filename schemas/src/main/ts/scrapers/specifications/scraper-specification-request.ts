@@ -28,7 +28,7 @@ export const ScraperSpecificationRequest = z
               "io.github.lengors.protoscout.domain.scrapers.specifications.models.ScraperSpecificationPayload",
           }),
       ),
-      parser: ScraperSpecificationRequestParser,
+      parser: z.optional(ScraperSpecificationRequestParser),
     }),
   )
   .register(z.globalRegistry, {
