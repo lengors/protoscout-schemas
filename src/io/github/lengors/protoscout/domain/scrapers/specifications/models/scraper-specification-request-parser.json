@@ -3,6 +3,7 @@
   "$id": "scraper-specification-request-parser.json",
   "type": "string",
   "enum": [
+    "auto",
     "html",
     "json",
     "text"
