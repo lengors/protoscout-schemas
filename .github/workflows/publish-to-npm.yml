@@ -44,6 +44,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          registry-url: https://registry.npmjs.org
       - name: Install dependencies
         run: npm ci
       - name: Verify integrity
@@ -51,7 +52,7 @@ jobs:
       - name: Build package
         run: npm run build -w schemas
       - name: Publish version
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v6
         id: semantic-release
         with:
           extra_plugins: |
