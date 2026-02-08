@@ -1,3 +1,10 @@
+# [v2.4.0-dev.2](https://github.com/lengors/protoscout-schemas/compare/v2.4.0-dev.1...v2.4.0-dev.2) (2026-02-08)
+
+## 🐛 Bug Fixes
+
+- [`1850a18`](https://github.com/lengors/protoscout-schemas/commit/1850a18) Support for missing grading values
+- [`366d528`](https://github.com/lengors/protoscout-schemas/commit/366d528) Fix deployment pipeline
+
 # [v2.4.0-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0-dev.1) (2026-02-01)
 
 ## ✨ New Features
