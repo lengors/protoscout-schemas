@@ -7,7 +7,9 @@
     "b",
     "c",
     "d",
-    "e"
+    "e",
+    "f",
+    "g"
   ],
   "id": "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-grading.json",
   "title": "Scraper response result grading.",
