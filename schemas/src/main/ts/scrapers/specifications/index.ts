@@ -9,7 +9,7 @@ export * from "./scraper-specification-jexl-specification.js";
 export * from "./scraper-specification-json-payload.js";
 export * from "./scraper-specification-map-action.js";
 export * from "./scraper-specification-map.js";
-export * from "./scraper-specification-payload-map.js";
+export * from "./scraper-specification-payload-entry-array.js";
 export * from "./scraper-specification-request-action.js";
 export * from "./scraper-specification-request-method.js";
 export * from "./scraper-specification-request-parser.js";
