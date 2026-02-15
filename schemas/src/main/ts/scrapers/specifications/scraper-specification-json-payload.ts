@@ -1,5 +1,5 @@
 import { z } from "zod/mini";
-import { ScraperSpecificationPayloadMap } from "./scraper-specification-payload-map.js";
+import { ScraperSpecificationPayloadEntryArray } from "./scraper-specification-payload-entry-array.js";
 
 /**
  * Represents a json payload to be used by scraper's web request.
@@ -9,7 +9,7 @@ import { ScraperSpecificationPayloadMap } from "./scraper-specification-payload-
 export const ScraperSpecificationJsonPayload = z
   .readonly(
     z.object({
-      json: ScraperSpecificationPayloadMap,
+      json: ScraperSpecificationPayloadEntryArray,
     }),
   )
   .register(z.globalRegistry, {
