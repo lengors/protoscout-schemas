@@ -1,3 +1,9 @@
+# [v2.4.0-dev.3](https://github.com/lengors/protoscout-schemas/compare/v2.4.0-dev.2...v2.4.0-dev.3) (2026-02-15)
+
+## ✨ New Features
+
+- [`d0744a3`](https://github.com/lengors/protoscout-schemas/commit/d0744a3) Add support for variable payload keys
+
 # [v2.4.0-dev.2](https://github.com/lengors/protoscout-schemas/compare/v2.4.0-dev.1...v2.4.0-dev.2) (2026-02-08)
 
 ## 🐛 Bug Fixes
