@@ -13,7 +13,7 @@
   "type": "object",
   "properties": {
     "data": {
-      "$ref": "scraper-specification-payload-map.json"
+      "$ref": "scraper-specification-payload.json"
     }
   },
   "required": [
