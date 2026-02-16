@@ -1,3 +1,15 @@
+# [v2.4.0](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0) (2026-02-16)
+
+## ✨ New Features
+
+- [`03b7e92`](https://github.com/lengors/protoscout-schemas/commit/03b7e92) Add support for defining request parser as inferring parser
+- [`d0744a3`](https://github.com/lengors/protoscout-schemas/commit/d0744a3) Add support for variable payload keys
+
+## 🐛 Bug Fixes
+
+- [`1850a18`](https://github.com/lengors/protoscout-schemas/commit/1850a18) Support for missing grading values
+- [`366d528`](https://github.com/lengors/protoscout-schemas/commit/366d528) Fix deployment pipeline
+
 # [v2.4.0-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0-beta.1) (2026-02-16)
 
 ## ✨ New Features
