@@ -1,3 +1,46 @@
+# [v2.4.0-beta.1](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0-beta.1) (2026-02-16)
+
+## ✨ New Features
+
+- [`03b7e92`](https://github.com/lengors/protoscout-schemas/commit/03b7e92) Add support for defining request parser as inferring parser
+- [`d0744a3`](https://github.com/lengors/protoscout-schemas/commit/d0744a3) Add support for variable payload keys
+
+## 🐛 Bug Fixes
+
+- [`1850a18`](https://github.com/lengors/protoscout-schemas/commit/1850a18) Support for missing grading values
+- [`366d528`](https://github.com/lengors/protoscout-schemas/commit/366d528) Fix deployment pipeline
+
+# [v2.4.0-alpha.1](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0-alpha.1) (2026-02-15)
+
+## ✨ New Features
+
+- [`03b7e92`](https://github.com/lengors/protoscout-schemas/commit/03b7e92) Add support for defining request parser as inferring parser
+- [`d0744a3`](https://github.com/lengors/protoscout-schemas/commit/d0744a3) Add support for variable payload keys
+
+## 🐛 Bug Fixes
+
+- [`1850a18`](https://github.com/lengors/protoscout-schemas/commit/1850a18) Support for missing grading values
+- [`366d528`](https://github.com/lengors/protoscout-schemas/commit/366d528) Fix deployment pipeline
+
+# [v2.4.0-dev.3](https://github.com/lengors/protoscout-schemas/compare/v2.4.0-dev.2...v2.4.0-dev.3) (2026-02-15)
+
+## ✨ New Features
+
+- [`d0744a3`](https://github.com/lengors/protoscout-schemas/commit/d0744a3) Add support for variable payload keys
+
+# [v2.4.0-dev.2](https://github.com/lengors/protoscout-schemas/compare/v2.4.0-dev.1...v2.4.0-dev.2) (2026-02-08)
+
+## 🐛 Bug Fixes
+
+- [`1850a18`](https://github.com/lengors/protoscout-schemas/commit/1850a18) Support for missing grading values
+- [`366d528`](https://github.com/lengors/protoscout-schemas/commit/366d528) Fix deployment pipeline
+
+# [v2.4.0-dev.1](https://github.com/lengors/protoscout-schemas/compare/v2.3.0...v2.4.0-dev.1) (2026-02-01)
+
+## ✨ New Features
+
+- [`03b7e92`](https://github.com/lengors/protoscout-schemas/commit/03b7e92) Add support for defining request parser as inferring parser
+
 # [v2.3.0](https://github.com/lengors/protoscout-schemas/compare/v2.2.0...v2.3.0) (2026-01-25)
 
 ## ✨ New Features

@@ -6,7 +6,7 @@ import { z } from "zod/mini";
  * @author lengors
  */
 export const ScraperResponseResultGrading = z
-  .enum(["a", "b", "c", "d", "e"])
+  .enum(["a", "b", "c", "d", "e", "f", "g"])
   .register(z.globalRegistry, {
     $schema: "http://json-schema.org/draft-07/schema",
     id: "io/github/lengors/protoscout/domain/scrapers/models/scraper-response-result-grading.json",
